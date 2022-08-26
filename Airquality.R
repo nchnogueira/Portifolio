@@ -47,3 +47,4 @@ airquality %>%
       axis.title = element_text(colour = '#082234'),
       axis.title.y = element_text(angle = 90, margin = margin(r = 2, unit = 'mm')),
       axis.text = element_text())
+a
