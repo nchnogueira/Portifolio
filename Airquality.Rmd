@@ -24,10 +24,6 @@ library(extrafont)
 loadfonts(device = "win")
 ```
 
-### Correção de dados
-
-A base de dados airquality apresenta algumas observações faltantes. Para corrigir o problema, utilizei o método pmm que se baseia em méida preditiva para imputar os dados e completar a série temporal.
-
 ### Manipulação e calculo de sumário
 
 Inserindo coluna ano, criando coluna formato *Date* e calculando média e desvio padrão por semana.
