@@ -67,6 +67,6 @@ airquality_noNA %>%
       axis.title.y = element_text(angle = 90, margin = margin(r = 2, unit = 'mm')),
       axis.text = element_text())
 
-ggsave("Airquality.png", width = 1000, height = 500, units = "px")
+ggsave("Airquality.png")
 
 ```
