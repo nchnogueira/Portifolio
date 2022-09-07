@@ -4,10 +4,10 @@
 library(tidyverse)
 library(plotly)
 library(timetk)
+library(extrafont)
 library(gganimate)
 library(hrbrthemes)
 
-loadfonts(device = "win")
 # Carregando e arrumando os dados
 
 df <- co2
@@ -28,7 +28,7 @@ df %>%
          x = "Ano",
          y = "CO2 (ppm)",
          color = "CO2 (ppm)") +
-    theme_ipsum()
+    theme_ipsum_pub()
 
 
 # Plot simples
@@ -47,7 +47,7 @@ p2 <-
   labs(title = "Observatório Mauna Loa, Havaii\nConcentração de CO2 Atmosférico",
        x = "Ano",
        y = "CO2 (ppm)",
-       caption = "As concentrações de CO2 atmosférico vêm aumentando com o passar dos anos de forma significativa\nBase de dados fornecida por Scripps CO2 Program",
+       caption = "O CO2 atmosférico vêm aumentando com o passar dos anos de forma significativa\nBase de dados fornecida por Scripps CO2 Program",
        color = "CO2 (ppm)") +
   theme_ipsum_pub() +
   transition_reveal(Data)
