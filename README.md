@@ -44,6 +44,52 @@ Investigação da relação entre consumo de álcool per capita, IDH e expectati
 - IDH como fator mediador relevante  
 *(Nota: Correlação ≠ Causalidade)*
 
+### 🌡️ Análise de Anomalias Térmicas em Campos dos Goytacazes-RJ
+
+![Heatmap de Anomalias](Anomalias_Temperatura_Campos/Graficos/Anomalias_CamposRJ_gt.png)  
+*Tabela interativa produzida com {gt} - Dados: INMET (2024)*
+
+#### 🔍 Contexto Analítico
+
+**Objetivo:**  
+Identificar padrões temporais nas variações térmicas mensais comparadas à climatologia histórica (1991-2010) para avaliar tendências locais.
+
+**Metodologia:**  
+- Dados observacionais: Série histórica 2011-2024 (INMET/BDMEP)  
+- Métrica: `Anomalia = Temperatura Observada - Normal Climatológica`  
+- Técnicas:  
+  - Visualização matricial com codificação cromática  
+  - Análise descritiva longitudinal  
+
+**Escala de Interpretação:**  
+- 🔵 **Azul**: Temperaturas abaixo da média histórica (até -3°C)  
+- 🔴 **Vermelho**: Temperaturas acima da média histórica (até +3°C)  
+
+#### 💡 Principais Insights
+
+1. **Padrão Emergente (2024)**  
+   - Primeiro ano com anomalias **positivas em todos os meses**  
+   - Abril/2024 apresenta `NA` por inconsistência nos dados brutos  
+   - Sinaliza possível aceleração local das mudanças climáticas  
+
+2. **Extremos Verificados**  
+   - Período 2011-2023: ~51% dos meses com anomalias positivas  
+   - Maior anomalia positiva: **+2.9°C** (Mai/2024)  
+   - Maior anomalia negativa: **-1.5°C** (Nov/2011)   
+
+#### ⚠️ Considerações Metodológicas
+
+- **Especificidade Geográfica:**  
+  Análise restrita à estação INMET 83698 - Resultados não são generalizáveis  
+
+- **Fatores Não Considerados:**  
+  - Urbanização acelerada  
+  - Mudanças de uso do solo  
+  - Oscilações oceânicas (ex: ENSO)  
+
+- **Recomendações:**  
+  > "Apesar do padrão emergente, correlações com mudanças climáticas globais requerem modelagem multivariada e análises em escalas temporais mais extensas."
+
 ---
 
 ## 🛠️ Instalação e Uso
