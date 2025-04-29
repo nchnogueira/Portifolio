@@ -88,6 +88,6 @@ Identificar padrões temporais nas variações térmicas mensais comparadas à c
   - Oscilações oceânicas (ex: ENSO)  
 
 - **Recomendações:**  
-  > "Apesar do padrão emergente, correlações com mudanças climáticas globais requerem modelagem multivariada e análises em escalas temporais mais extensas."
+  - "Apesar do padrão emergente, correlações com mudanças climáticas globais requerem modelagem multivariada e análises em escalas temporais mais extensas."
 
 ---
