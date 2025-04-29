@@ -29,7 +29,7 @@ Combinando formação em ciências naturais com expertise técnica, desenvolvo a
 
 ### Projeto em Destaque: **Análise Socioepidemiológica - Consumo de Álcool vs Indicadores Globais**
 
-![Gráfico de Correlação](CorrelacaoAlcooleExpectativadeVida/Plot_Correlacao_Causalidade.png)  
+![Gráfico de Correlação](Correlacao_Alcool_e_Expectativa_de_Vida/Plot_Correlacao_Causalidade.png)  
 *Visualização interativa produzida com ggplot2 e ggflags*
 
 **Contexto Analítico:**  
