@@ -27,29 +27,29 @@ Combinando formação em ciências naturais com expertise técnica, desenvolvo a
 
 ## 📂 Visão Geral do Repositório
 
-### Projeto em Destaque: **Análise Socioepidemiológica - Consumo de Álcool vs Indicadores Globais**
+### 📊 **Análise Socioepidemiológica - Consumo de Álcool vs Indicadores Globais**
 
 ![Gráfico de Correlação](Correlacao_Alcool_e_Expectativa_de_Vida/Plot_Correlacao_Causalidade.png)  
 *Visualização interativa produzida com ggplot2 e ggflags*
 
-**Contexto Analítico:**  
+#### 🔍 **Contexto Analítico:**  
 Investigação da relação entre consumo de álcool per capita, IDH e expectativa de vida em 45 países (2020). Detalhes técnicos:
 - Fontes: Our World in Data
 - Técnicas: Modelagem linear, análise de correlação
 - Ferramentas: `tidyverse`, `countrycode`, `ggtext`
 
-**Principais Insights:**  
+#### 💡 **Principais Insights:**  
 - Correlação significativa positiva moderada (ρ = 0.49; p < 0.01) entre variáveis  
 - Padrões geoeconômicos identificados  
 - IDH como fator mediador relevante  
 *(Nota: Correlação ≠ Causalidade)*
 
-### 🌡️ Análise de Anomalias Térmicas em Campos dos Goytacazes-RJ
+### 🌡️ **Análise de Anomalias Térmicas em Campos dos Goytacazes-RJ**
 
 ![Heatmap de Anomalias](Anomalias_Temperatura_Campos/Graficos/Anomalias_CamposRJ_gt.png)  
 *Tabela interativa produzida com {gt} - Dados: INMET (2024)*
 
-#### 🔍 Contexto Analítico
+#### 🔍 **Contexto Analítico:**
 
 **Objetivo:**  
 Identificar padrões temporais nas variações térmicas mensais comparadas à climatologia histórica (1991-2010) para avaliar tendências locais.
@@ -65,7 +65,7 @@ Identificar padrões temporais nas variações térmicas mensais comparadas à c
 - 🔵 **Azul**: Temperaturas abaixo da média histórica (até -3°C)  
 - 🔴 **Vermelho**: Temperaturas acima da média histórica (até +3°C)  
 
-#### 💡 Principais Insights
+#### 💡 **Principais Insights:**
 
 1. **Padrão Emergente (2024)**  
    - Primeiro ano com anomalias **positivas em todos os meses**  
@@ -77,7 +77,7 @@ Identificar padrões temporais nas variações térmicas mensais comparadas à c
    - Maior anomalia positiva: **+2.9°C** (Mai/2024)  
    - Maior anomalia negativa: **-1.5°C** (Nov/2011)   
 
-#### ⚠️ Considerações Metodológicas
+#### ⚠️ **Considerações Metodológicas:**
 
 - **Especificidade Geográfica:**  
   Análise restrita à estação INMET 83698 - Resultados não são generalizáveis  
@@ -91,14 +91,3 @@ Identificar padrões temporais nas variações térmicas mensais comparadas à c
   > "Apesar do padrão emergente, correlações com mudanças climáticas globais requerem modelagem multivariada e análises em escalas temporais mais extensas."
 
 ---
-
-## 🛠️ Instalação e Uso
-
-Para reproduzir as análises:
-
-```bash
-# Clonar repositório
-git clone https://github.com/nchnogueira/Portifolio
-
-# Instalar dependências (R >= 4.1.0)
-```
