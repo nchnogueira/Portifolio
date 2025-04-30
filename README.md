@@ -23,6 +23,78 @@ Combinando formação em ciências naturais com expertise técnica, desenvolvo a
 
 # 📂 Visão Geral do Repositório
 
+## 🚀 Análise de Downloads da Linguagem R (2012/10 - 2025/04)
+
+![Gráfico de Downloads do R](Numero_R_Downloads/results/GráficoFinal.png)  
+*Visualização interativa produzida com ggsankey + customizações - Dados: CRAN (2025)*
+
+### 📊 Visão Geral do Projeto
+
+**Objetivo:**  
+Mapear a evolução histórica dos downloads do R através do processamento de 13 anos de registros brutos do CRAN.
+
+**Destaques Técnicos:**  
+✅ Coleta automatizada direto da fonte (`cran-logs.rstudio.com`)  
+✅ Processamento paralelo de dados massivos (1.7GB brutos)  
+✅ Pipeline reprodutível para atualizações automáticas  
+
+**Metodologia:**  
+1. **Coleta de Dados**  
+   - Download diário de logs via `future.apply` (paralelizado em 8 núcleos)  
+   - 4,569 arquivos `.gz` processados (1 por dia desde 2012)  
+
+2. **Engenharia de Dados**  
+   - Descompressão on-the-fly com `gzfile`  
+   - Agregação mensal por versão principal (2.x, 3.x, 4.x)  
+
+3. **Visualização**  
+   - Diagrama de Sankey modificado com `ggsankey`  
+   - Anotações dinâmicas de tendências  
+
+### 🛠️ Destaques Técnicos
+
+```mermaid
+graph LR
+    A[CRAN Logs] --> B[Download Paralelo]
+    B --> C[Processamento Multicore]
+    C --> D[Agregação Mensal]
+    D --> E[Visualização Interativa]
+```
+
+**Stack Tecnológico:**  
+- `tidyverse`: Manipulação eficiente de dados massivos  
+- `future.apply`: Paralelização de ETL (Extract-Transform-Load)  
+- `ggsankey`: Visualização de fluxos temporais  
+
+**Desafios Superados:**  
+- **Volume de Dados:** Processamento de 4,569 arquivos CSV  
+- **Latência:** Otimização de ≈3h (serial) → ≈50min (paralelo)  
+- **Consistência:** Tratamento de logs incompletos (baixa % de dias)  
+
+### 📈 Principais Resultados
+
+**Estatísticas Chave:**  
+```yaml
+total_downloads: 40,301,426
+pico_mensal: 933,068 downloads (Jan/2023)
+versoes_ativas: 
+  - "2.x (2012-2013)"
+  - "3.x (2013-2020)" 
+  - "4.x (2020-presente)"
+```
+
+### 📚 Contexto Acadêmico
+
+**Vinculação Institucional:**  
+- **Orientação:** Dra. Eliane Barbosa Santos (LAMET/UENF)  
+- **Fomento:** Bolsa PROEx/UENF  
+- **Repositório:** [github.com/PExCCA-UENF/r-downloads-analysis](https://github.com/PExCCA-UENF/Scripts-R-Tabelas-Graficos-Mapas)  
+
+**Aplicações Práticas:**  
+- Modelagem de adoção tecnológica  
+- Planejamento de infraestrutura CRAN  
+- Estudos de comunidade open-source 
+
 ## 📊 **Análise Socioepidemiológica - Consumo de Álcool vs Indicadores Globais**
 
 ![Gráfico de Correlação](Correlacao_Alcool_e_Expectativa_de_Vida/Plot_Correlacao_Causalidade.png)  
