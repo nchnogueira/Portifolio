@@ -318,3 +318,11 @@ for(i in unique(dados_f$name_meso)) {
   plots(data = dados_f, region = i)
 }
 
+imagens <- list.files("plots/", pattern = ".png", full.names = T)
+
+img_list <- image_read(imagens)
+
+img_list <- image_animate(img_list, fps = 0.5) 
+
+# Salva o gif animado
+image_write(img_list, path = "plots/GifFinal.gif")
