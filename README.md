@@ -158,6 +158,50 @@ Identificar padrões temporais nas variações térmicas mensais comparadas à c
 - **Recomendações:**  
   - "Apesar do padrão emergente, correlações com mudanças climáticas globais requerem modelagem multivariada e análises em escalas temporais mais extensas."
 
+## 🌧️ Análise de Precipitação Extrema no Rio Grande do Sul (Abril/Maio 2024)
+
+![Animação das Mesorregiões Atingidas](Evento_Precipitação_Rio_Grande_do_Sul/plots/GifFinal.gif)  
+*Evolução temporal da precipitação acumulada por mesorregião - Fonte: INMET (2024)*
+
+### 📍 Contexto do Evento
+
+**Impacto Histórico:**  
+- 2.3 milhões de pessoas afetadas  
+- 158 municípios em estado de emergência  
+- Prejuízos estimados em R$ 12.7 bilhões  
+
+### 🔍 Detalhes Técnicos do Projeto
+
+```mermaid
+graph TD
+    A[BDMEP/INMET] --> B[Download Manual]
+    B --> C[Processamento Paralelo]
+    C --> D[Georreferenciamento]
+    D --> E[Modelagem Temporal]
+    E --> F[Visualização Dinâmica]
+```
+
+**Arquitetura de Dados:**  
+- **Fonte Primária:** 43 estações automáticas do INMET  
+- **Geoprocessamento:** 7 mesorregiões
+
+**Stack Utilizado:**  
+![R](https://img.shields.io/badge/R-4.3.2-276DC3?logo=R)  
+![INMET](https://img.shields.io/badge/BDMEP-API-009B48)
+
+### 📈 Principais Achados por Mesorregião
+
+```csv
+Mesorregião,Precipitação Máxima (mm),Estações Afetadas
+Metropolitana de POA,1126.4,9/43
+Sudoeste,987.2,12/43
+Noroeste,845.7,8/43
+```
+
+### ⚠️ Nota de Responsabilidade
+
+*"Os dados refletem registros oficiais do INMET, porém não representam avaliação conclusiva sobre causas ou responsabilidades legais do evento."*
+
 ## 🔥 **Análise de Extremos Térmicos em Campos dos Goytacazes-RJ**
 
 ![Banner Conferência PANAMMETS 2024](Analise_de_Tendencias_TMin_TMax_Campos/banner/BANNER_CPAM_NICOLAS_NOGUEIRA.png)  
