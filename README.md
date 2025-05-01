@@ -185,10 +185,6 @@ graph TD
 - **Fonte Primária:** 43 estações automáticas do INMET  
 - **Geoprocessamento:** 7 mesorregiões
 
-**Stack Utilizado:**  
-![R](https://img.shields.io/badge/R-4.3.2-276DC3?logo=R)  
-![INMET](https://img.shields.io/badge/BDMEP-API-009B48)
-
 ### 📈 Principais Achados por Mesorregião
 
 ```csv
