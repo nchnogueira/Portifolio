@@ -1,0 +1,101 @@
+ID,Setor,EPI_Principal,Horas_Uso_Diario,Dias_Semana,Frequencia_Uso,Treinamento_Recente,Idade,Inspecao_EPI,Incidentes_12Meses
+1,Soldagem,Máscara Respiratória,"6,2",5,Sempre,Sim,34,Adequada,0
+2,Montagem,Óculos Proteção,"7,1",4,Quase Sempre,Sim,29,Inadequada,1
+3,Pintura,Respirador,"5,5",5,Sempre,Não,42,Adequada,0
+4,Manutenção,Capacete,"4,8",3,Raramente,Sim,38,Adequada,2
+5,Soldagem,Luvas Corte,"6,0",5,Sempre,Sim,31,Adequada,0
+6,Almoxarifado,Protetor Auricular,"3,0",2,Nunca,Não,50,Inadequada,3
+7,Pintura,Macacão,"4,5",4,Quase Sempre,Sim,27,Adequada,1
+8,Montagem,Luvas,"5,8",5,Sempre,Não,45,Inadequada,2
+9,Soldagem,Avental,"6,7",4,Sempre,Sim,36,Adequada,0
+10,Manutenção,Botas,"5,2",3,Raramente,Não,41,Inadequada,1
+11,Almoxarifado,Calçado Segurança,"2,5",3,Nunca,Não,53,Inadequada,4
+12,Pintura,Óculos Proteção,"4,9",5,Quase Sempre,Sim,33,Adequada,0
+13,Montagem,Capacete,"6,3",4,Sempre,Sim,28,Adequada,0
+14,Soldagem,Máscara Respiratória,"7,0",5,Sempre,Sim,39,Adequada,0
+15,Manutenção,Luvas,"4,2",2,Raramente,Não,47,Inadequada,3
+16,Almoxarifado,Protetor Auricular,"1,8",1,Nunca,Não,57,Inadequada,5
+17,Pintura,Respirador,"5,1",5,Sempre,Não,44,Adequada,1
+18,Montagem,Óculos Proteção,"6,5",4,Quase Sempre,Sim,26,Adequada,0
+19,Soldagem,Luvas Corte,"6,8",5,Sempre,Sim,32,Adequada,0
+20,Manutenção,Capacete,"5,0",4,Raramente,Sim,40,Inadequada,2
+21,Almoxarifado,Calçado Segurança,"3,2",2,Nunca,Sim,48,Adequada,2
+22,Pintura,Macacão,"4,7",3,Quase Sempre,Não,35,Inadequada,1
+23,Montagem,Luvas,"5,4",5,Sempre,Sim,29,Adequada,0
+24,Soldagem,Avental,"7,2",5,Sempre,Não,43,Inadequada,1
+25,Manutenção,Botas,"4,0",3,Raramente,Sim,37,Adequada,1
+26,Almoxarifado,Protetor Auricular,"2,0",1,Nunca,Não,51,Inadequada,4
+27,Pintura,Óculos Proteção,"5,3",4,Sempre,Sim,30,Adequada,0
+28,Montagem,Capacete,"6,1",4,Quase Sempre,Não,46,Inadequada,2
+29,Soldagem,Máscara Respiratória,"6,9",5,Sempre,Sim,34,Adequada,0
+30,Manutenção,Luvas,"3,8",2,Raramente,Não,52,Inadequada,3
+31,Almoxarifado,Calçado Segurança,"2,7",3,Nunca,Sim,49,Adequada,1
+32,Pintura,Respirador,"4,8",5,Sempre,Sim,28,Adequada,0
+33,Montagem,Óculos Proteção,"5,7",5,Sempre,Sim,31,Adequada,0
+34,Soldagem,Luvas Corte,"6,4",4,Quase Sempre,Não,39,Inadequada,1
+35,Manutenção,Capacete,"4,5",3,Raramente,Sim,41,Adequada,1
+36,Almoxarifado,Protetor Auricular,"1,5",0,Nunca,Não,55,Inadequada,5
+37,Pintura,Macacão,"4,0",4,Quase Sempre,Sim,33,Adequada,0
+38,Montagem,Luvas,"5,9",5,Sempre,Não,42,Inadequada,2
+39,Soldagem,Avental,"6,5",5,Sempre,Sim,36,Adequada,0
+40,Manutenção,Botas,"3,5",2,Raramente,Não,50,Inadequada,3
+41,Almoxarifado,Calçado Segurança,"2,8",2,Nunca,Sim,47,Adequada,1
+42,Pintura,Óculos Proteção,"5,6",5,Sempre,Não,45,Inadequada,1
+43,Montagem,Capacete,"6,2",4,Sempre,Sim,29,Adequada,0
+44,Soldagem,Máscara Respiratória,"7,3",5,Sempre,Sim,35,Adequada,0
+45,Manutenção,Luvas,"4,3",3,Raramente,Sim,38,Adequada,1
+46,Almoxarifado,Protetor Auricular,"1,9",1,Nunca,Não,58,Inadequada,4
+47,Pintura,Respirador,"4,9",4,Quase Sempre,Sim,32,Adequada,0
+48,Montagem,Óculos Proteção,"5,8",5,Sempre,Não,44,Inadequada,2
+49,Soldagem,Luvas Corte,"6,6",5,Sempre,Sim,30,Adequada,0
+50,Manutenção,Capacete,"4,7",4,Raramente,Não,46,Inadequada,2
+51,Almoxarifado,Calçado Segurança,"3,1",2,Nunca,Sim,51,Adequada,1
+52,Pintura,Macacão,"4,2",3,Quase Sempre,Não,37,Inadequada,1
+53,Montagem,Luvas,"5,3",4,Sempre,Sim,28,Adequada,0
+54,Soldagem,Avental,"6,9",5,Sempre,Sim,40,Adequada,0
+55,Manutenção,Botas,"3,9",3,Raramente,Sim,43,Adequada,1
+56,Almoxarifado,Protetor Auricular,"2,1",0,Nunca,Não,56,Inadequada,5
+57,Pintura,Óculos Proteção,"5,0",5,Sempre,Sim,31,Adequada,0
+58,Montagem,Capacete,"6,0",4,Quase Sempre,Não,48,Inadequada,2
+59,Soldagem,Máscara Respiratória,"7,1",5,Sempre,Sim,33,Adequada,0
+60,Manutenção,Luvas,"4,1",2,Raramente,Não,49,Inadequada,3
+61,Almoxarifado,Calçado Segurança,"2,6",3,Nunca,Sim,52,Adequada,1
+62,Pintura,Respirador,"4,7",4,Sempre,Não,39,Inadequada,1
+63,Montagem,Óculos Proteção,"5,5",5,Sempre,Sim,27,Adequada,0
+64,Soldagem,Luvas Corte,"6,3",4,Quase Sempre,Sim,35,Adequada,0
+65,Manutenção,Capacete,"4,6",3,Raramente,Sim,41,Adequada,1
+66,Almoxarifado,Protetor Auricular,"1,7",1,Nunca,Não,54,Inadequada,4
+67,Pintura,Macacão,"4,3",4,Quase Sempre,Sim,34,Adequada,0
+68,Montagem,Luvas,"5,6",5,Sempre,Não,46,Inadequada,2
+69,Soldagem,Avental,"6,7",5,Sempre,Sim,37,Adequada,0
+70,Manutenção,Botas,"3,6",2,Raramente,Não,51,Inadequada,3
+71,Almoxarifado,Calçado Segurança,"2,9",2,Nunca,Sim,47,Adequada,1
+72,Pintura,Óculos Proteção,"5,4",5,Sempre,Não,42,Inadequada,1
+73,Montagem,Capacete,"6,1",4,Sempre,Sim,30,Adequada,0
+74,Soldagem,Máscara Respiratória,"7,4",5,Sempre,Sim,36,Adequada,0
+75,Manutenção,Luvas,"4,4",3,Raramente,Sim,39,Adequada,1
+76,Almoxarifado,Protetor Auricular,"2,2",1,Nunca,Não,57,Inadequada,4
+77,Pintura,Respirador,"5,2",4,Quase Sempre,Sim,33,Adequada,0
+78,Montagem,Óculos Proteção,"5,9",5,Sempre,Não,45,Inadequada,2
+79,Soldagem,Luvas Corte,"6,5",5,Sempre,Sim,31,Adequada,0
+80,Manutenção,Capacete,"4,8",4,Raramente,Não,44,Inadequada,2
+81,Almoxarifado,Calçado Segurança,"3,3",2,Nunca,Sim,50,Adequada,1
+82,Pintura,Macacão,"4,1",3,Quase Sempre,Não,38,Inadequada,1
+83,Montagem,Luvas,"5,2",4,Sempre,Sim,29,Adequada,0
+84,Soldagem,Avental,"7,0",5,Sempre,Sim,41,Adequada,0
+85,Manutenção,Botas,"3,7",3,Raramente,Sim,42,Adequada,1
+86,Almoxarifado,Protetor Auricular,"1,6",0,Nunca,Não,59,Inadequada,5
+87,Pintura,Óculos Proteção,"5,1",5,Sempre,Sim,32,Adequada,0
+88,Montagem,Capacete,"6,4",4,Quase Sempre,Não,47,Inadequada,2
+89,Soldagem,Máscara Respiratória,"7,2",5,Sempre,Sim,34,Adequada,0
+90,Manutenção,Luvas,"4,0",2,Raramente,Não,53,Inadequada,3
+91,Almoxarifado,Calçado Segurança,"2,4",3,Nunca,Sim,48,Adequada,1
+92,Pintura,Respirador,"4,6",4,Sempre,Não,40,Inadequada,1
+93,Montagem,Óculos Proteção,"5,3",5,Sempre,Sim,26,Adequada,0
+94,Soldagem,Luvas Corte,"6,2",4,Quase Sempre,Sim,35,Adequada,0
+95,Manutenção,Capacete,"4,9",3,Raramente,Sim,40,Adequada,1
+96,Almoxarifado,Protetor Auricular,"1,8",1,Nunca,Não,55,Inadequada,4
+97,Pintura,Macacão,"4,4",4,Quase Sempre,Sim,36,Adequada,0
+98,Montagem,Luvas,"5,7",5,Sempre,Não,43,Inadequada,2
+99,Soldagem,Avental,"6,8",5,Sempre,Sim,38,Adequada,0
+100,Manutenção,Botas,"3,8",2,Raramente,Não,49,Inadequada,3
