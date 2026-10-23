@@ -1,0 +1,1620 @@
+{
+  "metadados": {
+    "versao_schema": "1.0",
+    "ultima_atualizacao": "2026-10-22",
+    "total_itens_processados": 61
+  },
+  "perfil_base": {
+    "dados_pessoais": {
+      "nome": "Nícolas Chenquel Nogueira",
+      "data_nascimento": "1999-03-11",
+      "nacionalidade": "Brasileira",
+      "localizacao": "Campos dos Goytacazes, Rio de Janeiro, Brasil",
+      "enderecos": [
+        "Rua Dr. Manoel Landim, 416, Parque Turf Club, Campos dos Goytacazes - RJ, CEP 28015-180",
+        "Rua Maria Lúcia Piersante, 265, Bloco 10, Apto 404, Parque Aeroporto, Macaé - RJ, CEP 27963-762"
+      ],
+      "telefones": [
+        "(22) 99602-1028"
+      ],
+      "emails": [
+        "nchnogueira@gmail.com",
+        "nicolas.chenquel.nogueria@gmail.com"
+      ],
+      "links": {
+        "lattes": "https://lattes.cnpq.br/2784975258768462",
+        "orcid": "https://orcid.org/0000-0002-5077-4130",
+        "linkedin": "https://www.linkedin.com/in/nchnogueira",
+        "github": "https://github.com/nchnogueira",
+        "portfolio": "https://github.com/nchnogueira/portifolio",
+        "meteorapp": "http://pexcca-uenf.shinyapps.io/MeteoRApp/"
+      },
+      "idiomas": [
+        {
+          "idioma": "Inglês",
+          "nivel": "Avançado",
+          "detalhes": "Compreende bem, fala bem, lê bem, escreve bem"
+        },
+        {
+          "idioma": "Português",
+          "nivel": "Nativo"
+        }
+      ],
+      "referencias_profissionais": [
+        {
+          "nome": "Profa. Dra. Eliane Barbosa Santos",
+          "papel": "Coordenadora do Proamb.R e Orientadora de Mestrado (LAMET/UENF)",
+          "contato": "elianebs@gmail.com"
+        },
+        {
+          "nome": "Prof. Dr. Carlos Alberto de Moura Barboza",
+          "papel": "Coordenador da Disciplina de Bioestatística (NUPEM/UFRJ)",
+          "contato": "carlosambarboza@gmail.com"
+        },
+        {
+          "nome": "Debie Grosse",
+          "papel": "Diretora Escolar do Centro Educacional Rico Talento",
+          "contato": "(22) 99866-9907"
+        },
+        {
+          "nome": "Josie Vasconcelos",
+          "papel": "Diretora Adjunta do Colégio Estadual Dr. Olimpio Saturnino de Brito",
+          "contato": "(22) 98149-8979"
+        }
+      ]
+    },
+    "resumos_profissionais_macro": [
+      {
+        "foco": "Cientista de Dados / Estatística",
+        "pitch": "Cientista de Dados e Analista Estatístico especializado na estruturação de pipelines analíticos end-to-end na linguagem R (ecossistema Tidyverse) e Python. Experiência sólida em processamento de dados massivos out-of-memory com DuckDB, modelagem estatística descritiva, inferencial e multivariada (PCA, clustering), análise de séries temporais e detecção de tendências (Mann-Kendall, Estimador de Sen, Pettitt). Atuação em engenharia de dados (ETL), visualização avançada com ggplot2, dashboards interativos em Shiny e comunicação analítica orientada a decisões orientadas por dados."
+      },
+      {
+        "foco": "Educação / Ensino de Ciências e Biologia",
+        "pitch": "Licenciado em Ciências Biológicas pela UFRJ com ampla experiência em regência de turmas nos Ensinos Fundamental II, Médio e Técnico (Química, Estatística Aplicada, Informática, Método Científico e Ciências). Especialista no desenvolvimento de saberes digitais e metodologias ativas com foco em STEAM, Aprendizagem Baseada em Projetos (PBL) e experimentação científica com materiais acessíveis. Criador do projeto EdTech Bio-N-Class e de livros didáticos premiados, promovendo a transposição didática de conceitos científicos e matemáticos complexos por meio de simulações interativas."
+      },
+      {
+        "foco": "Pesquisador / Climatologia e Meio Ambiente",
+        "pitch": "Pesquisador em nível de mestrado pelo Programa de Pós-Graduação em Ciências Naturais da UENF (LAMET), com foco no monitoramento de extremos climáticos, secas e anomalias térmicas e pluviométricas no estado do Rio de Janeiro. Domínio em sensoriamento remoto, geoprocessamento e manipulação de produtos de reanálise e satélite em larga escala (ERA5-Land, CHIRPS v3, INMET, HidroWeb/ANA, MapBiomas) utilizando R (terra, sf, exactextractr) e Google Earth Engine. Experiência na quantificação de teleconexões (ENSO/El Niño) e cálculo de índices padronizados (SPI, SPEI e índices ETCCDI)."
+      },
+      {
+        "foco": "Desenvolvimento de Software / Web Front-end & Ferramentas Técnicas",
+        "pitch": "Desenvolvedor de software focado em aplicações interativas para visualização de dados e ferramentas educacionais (EdTech). Domínio em JavaScript moderno (ES6+), HTML5, CSS3, Tailwind CSS, p5.js, Three.js/WebGL (computação gráfica e simulações 3D) e renderização matemática com KaTeX. Experiência no ciclo completo de desenvolvimento com versionamento Git/GitHub, automação de pipelines CI/CD com GitHub Actions, desenvolvimento de APIs REST com FastAPI e produção técnica automatizada de documentos, relatórios e livros diagramados em Typst."
+      }
+    ]
+  },
+  "habilidades_competencias": {
+    "hard_skills": [
+      {
+        "categoria": "Ciência de Dados / Estatística",
+        "habilidades": [
+          "Análise exploratória de dados (EDA)",
+          "Estatística descritiva e inferencial",
+          "Testes de hipóteses paramétricos e não paramétricos",
+          "Testes de normalidade e dimensionamento amostral",
+          "Regressão linear simples e correlação linear (Pearson e Spearman)",
+          "Análise multivariada",
+          "Análise de séries temporais e modelagem autorregressiva",
+          "Processamento massivo e paralelo de dados",
+          "Engenharia de dados e rotinas de ETL/ELT",
+          "Auditoria de completude temporal e tratamento de dados ausentes (NA)",
+          "Visualização científica dinâmica e estática",
+          "Revisão bibliométrica e integrativa de literatura"
+        ],
+        "metodologias_testes": [
+          "Teste de tendência de Mann-Kendall",
+          "Modified Mann-Kendall (correlação serial)",
+          "Estimador de magnitude de declive de Sen",
+          "Teste de quebra estrutural de Pettitt",
+          "Análise de Componentes Principais (PCA)",
+          "Análise de Agrupamentos (Hierarchical Clustering / K-means)",
+          "Índices de extremos de temperatura e precipitação do ETCCDI (TXx, TNn, TXn, TNx, TX10p, TX90p, TN10p, TN90p)",
+          "Índice de Precipitação Padronizada (SPI)",
+          "Índice de Precipitação e Evapotranspiração Padronizada (SPEI)",
+          "Estimativa de densidade por kernel (KDE)",
+          "Modelagem probabilística e estocástica"
+        ]
+      },
+      {
+        "categoria": "Geoprocessamento / GIS",
+        "habilidades": [
+          "Manipulação de matrizes raster e dados vetoriais (Shapefile, GeoPackage, GeoTIFF)",
+          "Estatística zonal massiva (Zonal Statistics por limites municipais e bacias)",
+          "Mosaico, recorte (clip), reprojeção de sistemas de referência de coordenadas (CRS)",
+          "Interpolação espacial de dados pontuais de estações para superfícies contínuas",
+          "Correlação espaço-temporal",
+          "Composição cartográfica técnica com grades de coordenadas, escalas e rosas dos ventos",
+          "Construção de mapas web interativos e dinâmicos"
+        ],
+        "tecnologias": [
+          "QGIS",
+          "Google Earth Engine (GEE - Code Editor e Python API)",
+          "Pacote R terra",
+          "Pacote R sf (Simple Features)",
+          "Pacote R exactextractr",
+          "Pacote R geobr",
+          "Pacote R ggspatial",
+          "Leaflet.js",
+          "ERA5-Land (ECMWF)",
+          "CHIRPS v3.0 (UCSB)",
+          "MapBiomas",
+          "Rede Hidrometeorológica Nacional (ANA / HidroWeb)",
+          "Banco de Dados Meteorológicos do INMET",
+          "Modelos Digitais de Elevação (SRTM / DEM)"
+        ]
+      },
+      {
+        "categoria": "Desenvolvimento e Ferramentas Técnicas",
+        "linguagens": [
+          "R",
+          "Python 3.x",
+          "JavaScript (ES6+)",
+          "TypeScript",
+          "SQL",
+          "HTML5",
+          "CSS3",
+          "Typst",
+          "Batch / Shell Script (.bat)",
+          "Markdown"
+        ],
+        "frameworks_bibliotecas": [
+          "Tidyverse (dplyr, tidyr, lubridate, purrr, readr, stringr, forcats)",
+          "ggplot2 e extensões (ggsankey, ggtext, gt, ggflags, cowplot, patchwork, gganimate)",
+          "Shiny",
+          "Plotly",
+          "Bibliometrix",
+          "future.apply",
+          "SPEI",
+          "trend",
+          "modifiedmk",
+          "FastAPI",
+          "Pandas",
+          "Polars",
+          "Tailwind CSS",
+          "p5.js",
+          "Three.js (WebGL)",
+          "KaTeX",
+          "Chart.js",
+          "Capacitor"
+        ],
+        "ferramentas_gerais": [
+          "DuckDB (processamento colunar analítico OLAP)",
+          "SQLite",
+          "Git e GitHub",
+          "GitHub Actions (CI/CD)",
+          "GitHub Pages",
+          "Docker",
+          "Render",
+          "Android Studio",
+          "RStudio",
+          "Visual Studio Code (VSCode)",
+          "Web Scraping (BeautifulSoup, APIs REST)",
+          "Modelos de Linguagem e IA Generativa (Engenharia de Prompts e Automação de Workflows)"
+        ]
+      },
+      {
+        "categoria": "Práticas Pedagógicas e Metodologias de Ensino",
+        "habilidades": [
+          "Docência em Ciências, Biologia, Química, Informática e Estatística",
+          "Aprendizagem Baseada em Projetos (PBL)",
+          "Abordagem STEAM e saberes digitais",
+          "Experimentação investigativa com materiais de baixo custo",
+          "Transposição didática de modelos científicos complexos",
+          "Desenvolvimento de simulações virtuais e objetos de aprendizagem",
+          "Design instrucional, gamificação e confecção de quizzes com feedback imediato",
+          "Redação e editoração de livros didáticos e guias de laboratório",
+          "Formação continuada de docentes da Educação Básica",
+          "Divulgação científica multimídia (podcasts, exposições interativas, mídias sociais)"
+        ],
+        "abordagens": [
+          "Ensino de Ciências por Investigação (ENCI)",
+          "Metodologias ativas de aprendizagem",
+          "Educação Ambiental Crítica",
+          "Ciência Aberta (Open Science) e democratização de tecnologias",
+          "Desenvolvimento de softwares e materiais autônomos para funcionamento offline"
+        ]
+      }
+    ],
+    "soft_skills_e_gestao": [
+      "Comunicação didática e Data Storytelling para públicos técnicos e não técnicos",
+      "Rigor analítico, reprodutibilidade científica e governança de código",
+      "Capacidade autodidata e prototipagem rápida de ponta a ponta",
+      "Coordenação de logística e liderança de eventos acadêmicos e mostras científicas",
+      "Visão interdisciplinar integrando computação, matemática e ciências naturais",
+      "Trabalho em equipes multidisciplinares e mentoria acadêmica"
+    ]
+  },
+  "experiencias_profissionais_e_academicas": [
+    {
+      "id_experiencia": "exp_uenf_mestrado",
+      "instituicao_organizacao": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF) - Programa de Pós-Graduação em Ciências Naturais (PGCN)",
+      "cargo_papel": "Pesquisador em nível de Mestrado (Bolsista CAPES)",
+      "tipo_vinculo": "Bolsa",
+      "periodo": {
+        "inicio": "2026-03",
+        "fim": null,
+        "atual": true
+      },
+      "carga_horaria_semanal": 40,
+      "resumo_responsabilidades": "Desenvolvimento de pesquisa de mestrado voltada ao monitoramento contínuo de extremos climáticos, teleconexões e índices de seca em escala estadual e municipal no Rio de Janeiro.",
+      "atividades_detalhadas": [
+        "Extração e estruturação massiva de dados horários e diários do ERA5-Land via Google Earth Engine e Python API",
+        "Processamento colunar out-of-memory de rasters climáticos e bases de reanálise utilizando DuckDB e linguagem R",
+        "Cálculo dos índices padronizados de seca SPI e SPEI para bacias hidrográficas e regiões do estado do RJ",
+        "Análise estatística de tendências temporais históricas (1961 a 2024) aplicando Mann-Kendall e Estimador de Sen",
+        "Avaliação de teleconexões oceano-atmosfera (ENSO/El Niño-Oscilação Sul) e impactos na variabilidade pluviométrica local"
+      ],
+      "tecnologias_e_metodologias": [
+        "R",
+        "Python",
+        "DuckDB",
+        "Google Earth Engine",
+        "ERA5-Land",
+        "CHIRPS v3",
+        "terra",
+        "sf",
+        "exactextractr",
+        "SPEI",
+        "Mann-Kendall"
+      ],
+      "conquistas_e_impacto": [
+        "Elaboração de pipelines automatizados de ponta a ponta que reduzem o tempo de processamento de terabytes de matrizes climáticas"
+      ],
+      "tags_carreira": [
+        "pesquisa_academica",
+        "climatologia",
+        "data_science",
+        "gis"
+      ]
+    },
+    {
+      "id_experiencia": "exp_uenf_proambr_voluntario",
+      "instituicao_organizacao": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF) - Laboratório de Meteorologia (LAMET)",
+      "cargo_papel": "Colaborador e Integrante de Extensão Universitária",
+      "tipo_vinculo": "Voluntário",
+      "periodo": {
+        "inicio": "2024-08",
+        "fim": null,
+        "atual": true
+      },
+      "carga_horaria_semanal": 8,
+      "resumo_responsabilidades": "Atuação técnica no projeto 'Processamento e Análise de Dados Ambientais com R' (@Proamb.R), auxiliando em desenvolvimento analítico, produção de conteúdo e docência de oficinas.",
+      "atividades_detalhadas": [
+        "Planejamento didático e condução de treinamentos práticos de R e Tidyverse abertos à comunidade acadêmica",
+        "Desenvolvimento e aprimoramento de scripts para geração automática de relatórios ambientais",
+        "Manutenção do aplicativo web MeteoRApp hospedado no ShinyApps.io",
+        "Criação de materiais e postagens de divulgação científica para redes sociais (@pexcca.lamet)"
+      ],
+      "tecnologias_e_metodologias": [
+        "R",
+        "RStudio",
+        "Tidyverse",
+        "Shiny",
+        "Leaflet",
+        "Git",
+        "Divulgação Científica"
+      ],
+      "conquistas_e_impacto": [
+        "Capacitação de dezenas de graduandos e pós-graduandos em técnicas livres de análise de dados"
+      ],
+      "tags_carreira": [
+        "data_science",
+        "docencia_superior",
+        "climatologia",
+        "dev_web"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ce_rico_talento",
+      "instituicao_organizacao": "Centro Educacional Rico Talento (São João da Barra - RJ)",
+      "cargo_papel": "Professor de Ciências (Ensino Fundamental II)",
+      "tipo_vinculo": "Contrato CLT",
+      "periodo": {
+        "inicio": "2025-07",
+        "fim": null,
+        "atual": true
+      },
+      "carga_horaria_semanal": null,
+      "resumo_responsabilidades": "Docência da disciplina de Ciências para turmas do 6º ao 9º ano do Ensino Fundamental.",
+      "atividades_detalhadas": [
+        "Planejamento curricular alinhado à BNCC com ênfase em aprendizagem prática e metodologias investigativas",
+        "Condução de atividades experimentais de ciências com materiais do cotidiano e baixo custo",
+        "Integração de ferramentas tecnológicas, simulações digitais e abordagem STEAM na rotina de sala de aula",
+        "Elaboração e aplicação de instrumentos avaliativos contínuos e formativos"
+      ],
+      "tecnologias_e_metodologias": [
+        "STEAM",
+        "Experimentação investigativa",
+        "Design Instrucional",
+        "EdTech"
+      ],
+      "conquistas_e_impacto": [
+        "Elevação do engajamento estudantil através da implementação sistemática de aulas práticas interativas"
+      ],
+      "tags_carreira": [
+        "educacao_basica"
+      ]
+    },
+    {
+      "id_experiencia": "exp_seeduc_olimpio",
+      "instituicao_organizacao": "Secretaria de Estado de Educação do Rio de Janeiro (SEEDUC-RJ) - Colégio Estadual Doutor Olimpio Saturnino de Brito (São João da Barra - RJ)",
+      "cargo_papel": "Professor de Química (Ensino Médio)",
+      "tipo_vinculo": "Temporário",
+      "periodo": {
+        "inicio": "2025-06",
+        "fim": "2025-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": null,
+      "resumo_responsabilidades": "Regência de turmas da 1ª, 2ª e 3ª séries do Ensino Médio regular na disciplina de Química.",
+      "atividades_detalhadas": [
+        "Elaboração de planos de curso abordando química geral, físico-química e química orgânica",
+        "Desenvolvimento de demonstrações e aulas práticas conceituais contextualizadas com a realidade regional",
+        "Aplicação e correção de exames, recuperação paralela e atendimento individual a alunos"
+      ],
+      "tecnologias_e_metodologias": [
+        "Ensino de Química",
+        "Experimentação Didática",
+        "Planejamento Pedagógico"
+      ],
+      "conquistas_e_impacto": [
+        "Cumprimento integral da matriz curricular com valorização da experimentação química escolar"
+      ],
+      "tags_carreira": [
+        "educacao_basica"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ce_raimundo_pronatec",
+      "instituicao_organizacao": "Pronatec / Colégio Estadual Raimundo de Magalhães (São João da Barra - RJ)",
+      "cargo_papel": "Professor Instrutor de Química Aplicada e Estatística Aplicada (Ensino Técnico)",
+      "tipo_vinculo": "Temporário",
+      "periodo": {
+        "inicio": "2025-07",
+        "fim": "2025-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": null,
+      "resumo_responsabilidades": "Capacitação profissional de estudantes no curso Técnico em Segurança do Trabalho.",
+      "atividades_detalhadas": [
+        "Lecionou Estatística Aplicada focando em análise descritiva, inferência, distribuições de probabilidade para avaliação de cenários de risco ocupacional e apoio à tomada de decisões operacionais",
+        "Lecionou Química Aplicada enfatizando o reconhecimento e antecipação de agentes químicos perigosos, toxicologia ocupacional, análise de FISPQ e normas técnicas de controle de exposições ocupacionais"
+      ],
+      "tecnologias_e_metodologias": [
+        "Estatística Descritiva",
+        "Probabilidade Aplicada",
+        "Segurança Química",
+        "Interpretação de FISPQ"
+      ],
+      "conquistas_e_impacto": [
+        "Formação de técnicos aptos a quantificar indicadores de risco e interpretar criticamente variáveis químicas e estatísticas industriais"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "data_science"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ce_quinze_novembro",
+      "instituicao_organizacao": "Colégio Estadual Quinze de Novembro (Campos dos Goytacazes - RJ)",
+      "cargo_papel": "Professor Instrutor de Informática e Método Científico (Ensino Técnico)",
+      "tipo_vinculo": "Temporário",
+      "periodo": {
+        "inicio": "2025-07",
+        "fim": "2025-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": null,
+      "resumo_responsabilidades": "Docência de disciplinas propedêuticas e instrumentais em formação técnica.",
+      "atividades_detalhadas": [
+        "Instrução sobre ferramentas computacionais, softwares de produtividade, organização de planilhas e manipulação básica de dados",
+        "Ensino de metodologia da pesquisa científica, estruturação lógica de hipóteses, redação técnica e elaboração de relatórios conforme normas da ABNT"
+      ],
+      "tecnologias_e_metodologias": [
+        "Informática Aplicada",
+        "Metodologia da Pesquisa Científica",
+        "Normas ABNT",
+        "Elaboração de Relatórios"
+      ],
+      "conquistas_e_impacto": [
+        "Orientação de trabalhos de conclusão de módulos com rigor de estrutura científica e apresentação gráfica"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "data_science"
+      ]
+    },
+    {
+      "id_experiencia": "exp_uenf_proambr_bolsista",
+      "instituicao_organizacao": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF) - LAMET",
+      "cargo_papel": "Bolsista de Extensão Universidade Aberta",
+      "tipo_vinculo": "Bolsa",
+      "periodo": {
+        "inicio": "2022-08",
+        "fim": "2024-07",
+        "atual": false
+      },
+      "carga_horaria_semanal": 20,
+      "resumo_responsabilidades": "Atuação remunerada como bolsista de extensão no desenvolvimento de produtos tecnológicos, rotinas computacionais e condução de cursos de R aplicado a dados ambientais.",
+      "atividades_detalhadas": [
+        "Elaboração e execução de pipelines de processamento de séries meteorológicas do INMET e reanálises",
+        "Desenvolvimento do aplicativo interativo MeteoRApp com R Shiny e Leaflet para exibição de dados de estações Weather Underground",
+        "Ministração de minicursos presenciais e online (R para Iniciantes, Visualização com ggplot2 e Introdução ao Tidyverse)",
+        "Coautoria e apresentação de trabalhos em mostras de extensão e congressos científicos"
+      ],
+      "tecnologias_e_metodologias": [
+        "R",
+        "Tidyverse",
+        "ggplot2",
+        "Shiny",
+        "Leaflet",
+        "QGIS",
+        "Git/GitHub"
+      ],
+      "conquistas_e_impacto": [
+        "Premiado na área temática de Meio Ambiente na XVI Mostra de Extensão UENF-UFF-IFF-UFRRJ (2024)"
+      ],
+      "tags_carreira": [
+        "data_science",
+        "docencia_superior",
+        "climatologia",
+        "dev_web"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ufrj_monitoria_bioestatistica",
+      "instituicao_organizacao": "Universidade Federal do Rio de Janeiro (UFRJ - Campus Macaé / NUPEM)",
+      "cargo_papel": "Monitor da Disciplina de Bioestatística (Bolsista e Voluntário)",
+      "tipo_vinculo": "Bolsa / Voluntário",
+      "periodo": {
+        "inicio": "2021-01",
+        "fim": "2024-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": 12,
+      "resumo_responsabilidades": "Suporte pedagógico e técnico contínuo aos estudantes de graduação na disciplina curricular obrigatória de Bioestatística, sob orientação do Prof. Dr. Carlos Alberto de Moura Barboza.",
+      "atividades_detalhadas": [
+        "Atendimento semanal aos alunos para resolução de dúvidas teóricas e práticas laboratoriais",
+        "Desenvolvimento de scripts didáticos em R para ensino de estatística descritiva, testes de hipóteses e regressão",
+        "Planejamento e ministração de minicursos práticos complementares sobre programação em R",
+        "Coautoria e confecção do livro didático completo 'Guia Prático de Bioestatística com R'"
+      ],
+      "tecnologias_e_metodologias": [
+        "Linguagem R",
+        "RStudio",
+        "Tidyverse",
+        "Bioestatística",
+        "Testes de Hipótese",
+        "Confecção de Material Didático"
+      ],
+      "conquistas_e_impacto": [
+        "Menção Honrosa na 12ª Semana de Integração Acadêmica da UFRJ (SIAC 2023) pela produção do livro didático de Bioestatística"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ufrj_monitoria_ecologia",
+      "instituicao_organizacao": "Universidade Federal do Rio de Janeiro (UFRJ - Campus Macaé / NUPEM)",
+      "cargo_papel": "Monitor Voluntário de Ecologia de Ecossistemas Terrestres",
+      "tipo_vinculo": "Voluntário",
+      "periodo": {
+        "inicio": "2024-01",
+        "fim": "2024-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": 4,
+      "resumo_responsabilidades": "Apoio docente na disciplina de graduação de Ecologia de Ecossistemas Terrestres, sob coordenação do Prof. Dr. Rodrigo Lemes Martins.",
+      "atividades_detalhadas": [
+        "Suporte teórico e metodológico aos discentes em ecologia de comunidades e ecossistemas",
+        "Planejamento logístico e assistência na condução das atividades práticas de campo",
+        "Auxílio na padronização de protocolos de amostragem ecológica e elaboração de relatórios científicos"
+      ],
+      "tecnologias_e_metodologias": [
+        "Ecologia Vegetal e de Comunidades",
+        "Amostragem em Campo",
+        "Relatórios Acadêmicos"
+      ],
+      "conquistas_e_impacto": [
+        "Acompanhamento e suporte direto a turmas de graduação durante expedições e levantamentos de dados empíricos"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ufrj_extensao_experimentacao",
+      "instituicao_organizacao": "Universidade Federal do Rio de Janeiro (UFRJ - NUPEM)",
+      "cargo_papel": "Colaborador de Extensão Universitária",
+      "tipo_vinculo": "Voluntário",
+      "periodo": {
+        "inicio": "2023-03",
+        "fim": "2024-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": null,
+      "resumo_responsabilidades": "Atuação no projeto extensionista 'O Ensino de Ciências pela Prática da Experimentação' sob coordenação do Prof. Petter Franco Entringer.",
+      "atividades_detalhadas": [
+        "Desenvolvimento e testagem de roteiros práticos investigativos utilizando materiais alternativos e de baixo custo",
+        "Realização de oficinas de formação continuada para professores de Ciências da Natureza da rede pública de Macaé e região",
+        "Divulgação e documentação das metodologias pedagógicas investigativas em canais digitais"
+      ],
+      "tecnologias_e_metodologias": [
+        "Experimentação Investigativa",
+        "Formação Continuada de Professores",
+        "Educação Científica com Baixo Custo"
+      ],
+      "conquistas_e_impacto": [
+        "Fomento à autonomia docente e disseminação de práticas de laboratório sem dependência de infraestrutura cara"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ufrj_extensao_imaginamundos",
+      "instituicao_organizacao": "Universidade Federal do Rio de Janeiro (UFRJ - NUPEM)",
+      "cargo_papel": "Colaborador Extensionista e Coordenador de Eventos",
+      "tipo_vinculo": "Voluntário",
+      "periodo": {
+        "inicio": "2022-02",
+        "fim": "2024-12",
+        "atual": false
+      },
+      "carga_horaria_semanal": null,
+      "resumo_responsabilidades": "Atuação no projeto 'Imaginamundos: educação, sustentabilidade e novas formas de viver' sob coordenação do Prof. Rafael Nogueira Costa.",
+      "atividades_detalhadas": [
+        "Atuou como Coordenador Geral do Festival ConexõesMundos 2023 (80h) e Monitor Geral em 2022 (40h)",
+        "Planejamento de experiências educativas dialógicas, mostras culturais e produções audiovisuais",
+        "Atuou como expositor nas oficinas de Educação Ambiental do Dia Mundial dos Oceanos (Estações Corais do Saber e Pegada Positiva em 2023)",
+        "Coautoria de relatório técnico internacional para a Cátedra UNESCO em Educação Aberta e a Distância"
+      ],
+      "tecnologias_e_metodologias": [
+        "Educação Ambiental",
+        "Coordenação de Eventos",
+        "Produção Audiovisual",
+        "Diálogo Universidade-Sociedade"
+      ],
+      "conquistas_e_impacto": [
+        "Coordenação geral de festival institucional integrando centenas de participantes da comunidade interna e externa"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "id_experiencia": "exp_ufrj_pibid",
+      "instituicao_organizacao": "Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES) / UFRJ Macaé",
+      "cargo_papel": "Bolsista do Programa Institucional de Iniciação à Docência (PIBID)",
+      "tipo_vinculo": "Bolsa",
+      "periodo": {
+        "inicio": "2020-11",
+        "fim": "2022-04",
+        "atual": false
+      },
+      "carga_horaria_semanal": 20,
+      "resumo_responsabilidades": "Vivência de iniciação à docência em Biologia em escolas públicas de Macaé sob coordenação do Prof. Téo Bueno de Abreu.",
+      "atividades_detalhadas": [
+        "Roteirização, gravação e edição de podcasts educativos temáticos em resposta aos desafios do ensino remoto emergencial",
+        "Participação em reuniões semanais de fundamentação pedagógica, elaboração de projetos e análise do cotidiano escolar",
+        "Elaboração de planos de ensino adaptados à dinâmica da Educação Básica pública"
+      ],
+      "tecnologias_e_metodologias": [
+        "Produção de Podcasts",
+        "Ensino Remoto e Híbrido",
+        "Planejamento de Ensino de Biologia"
+      ],
+      "conquistas_e_impacto": [
+        "Apresentação de trabalho e relato de experiência na 11ª Semana de Integração Acadêmica da UFRJ (2022)"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "docencia_superior"
+      ]
+    }
+  ],
+  "docencia_e_capacitacoes_ministradas": [
+    {
+      "titulo": "Introdução à Linguagem R",
+      "tipo": "Minicurso",
+      "papel": "Ministrante",
+      "instituicoes_promotoras": [
+        "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+        "Instituto de Biodiversidade e Sustentabilidade (NUPEM/UFRJ)"
+      ],
+      "edicoes": [
+        {
+          "data": "2021",
+          "carga_horaria_horas": 10,
+          "local": "III Simpósio de Pesquisa do NUPEM / Online"
+        },
+        {
+          "data": "2022",
+          "carga_horaria_horas": 10,
+          "local": "IV Simpósio de Pesquisa do NUPEM / Macaé-RJ"
+        },
+        {
+          "data": "2024",
+          "carga_horaria_horas": 10,
+          "local": "Laboratório de Meteorologia (LAMET/UENF) / Macaé-RJ"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Sintaxe fundamental e filosofia da linguagem R",
+        "Organização de fluxos de trabalho com RStudio e projetos (.RProj)",
+        "Tipos de objetos, vetores, fatores, matrizes e data frames",
+        "Manipulação de tabelas com Tidyverse (dplyr, tidyr, lubridate)",
+        "Visualização de dados científicos com o pacote ggplot2"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "RStudio",
+        "Tidyverse",
+        "ggplot2"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science"
+      ]
+    },
+    {
+      "titulo": "R para Iniciantes",
+      "tipo": "Minicurso",
+      "papel": "Ministrante",
+      "instituicoes_promotoras": [
+        "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)"
+      ],
+      "edicoes": [
+        {
+          "data": "2023",
+          "carga_horaria_horas": 8,
+          "local": "LAMET/UENF (4 edições ministradas ao longo do ano)"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Instalação e configuração do ambiente R e RStudio",
+        "Importação de dados (arquivos .csv, .txt, .xlsx) e exportação de resultados",
+        "Operações aritméticas, lógicas e estruturas condicionais básicas",
+        "Criação de gráficos básicos e primeiros passos no ggplot2"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "RStudio"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science"
+      ]
+    },
+    {
+      "titulo": "Manipulação e Visualização de Dados no R",
+      "tipo": "Oficina",
+      "papel": "Ministrante",
+      "instituicoes_promotoras": [
+        "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)"
+      ],
+      "edicoes": [
+        {
+          "data": "2022",
+          "carga_horaria_horas": 6,
+          "local": "LAMET/UENF"
+        },
+        {
+          "data": "2023",
+          "carga_horaria_horas": 6,
+          "local": "LAMET/UENF"
+        },
+        {
+          "data": "2024",
+          "carga_horaria_horas": 6,
+          "local": "LAMET/UENF"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Encadeamento analítico avançado com operador pipe (%>%) e nativo (|>)",
+        "Transformações relacionais (joins, pivots longer/wider e mutações complexas)",
+        "Gramática gráfica avançada: escalas, temas personalizados e faceting no ggplot2",
+        "Extensões de visualização para publicações científicas"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "dplyr",
+        "tidyr",
+        "ggplot2"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science"
+      ]
+    },
+    {
+      "titulo": "Estatística Básica no R",
+      "tipo": "Minicurso",
+      "papel": "Ministrante",
+      "instituicoes_promotoras": [
+        "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)"
+      ],
+      "edicoes": [
+        {
+          "data": "2022",
+          "carga_horaria_horas": 8,
+          "local": "LAMET/UENF"
+        },
+        {
+          "data": "2024",
+          "carga_horaria_horas": 8,
+          "local": "LAMET/UENF"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Cálculo e interpretação de medidas de tendência central e dispersão",
+        "Testes de normalidade (Shapiro-Wilk) e homogeneidade de variâncias",
+        "Análise de correlação (Pearson, Spearman) e regressão linear simples",
+        "Introdução a testes estatísticos de tendências em séries temporais"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "RStudio",
+        "Tidyverse"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science"
+      ]
+    },
+    {
+      "titulo": "Monitoria e Suporte Didático em Minicursos Especializados de Extensão",
+      "tipo": "Treinamento",
+      "papel": "Monitor",
+      "instituicoes_promotoras": [
+        "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)"
+      ],
+      "edicoes": [
+        {
+          "data": "2022",
+          "carga_horaria_horas": 10,
+          "local": "Curso: Análise de Componentes Principais (PCA) no R"
+        },
+        {
+          "data": "2022",
+          "carga_horaria_horas": 8,
+          "local": "Curso: R para Iniciantes"
+        },
+        {
+          "data": "2023",
+          "carga_horaria_horas": 12,
+          "local": "Curso: Análise de Séries Temporais no R"
+        },
+        {
+          "data": "2023",
+          "carga_horaria_horas": 10,
+          "local": "Curso: Introdução a Mapas no R com pacote geobr"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Redução de dimensionalidade com PCA no R",
+        "Decomposição clássica e modelagem de séries temporais",
+        "Download e plotagem de malhas censitárias e dados espaciais com geobr",
+        "Resolução de erros de código e suporte computacional individual aos participantes"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "geobr",
+        "sf",
+        "stats"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science",
+        "gis"
+      ]
+    },
+    {
+      "titulo": "Minicurso: Introdução à Linguagem R (III Simpósio NUPEM)",
+      "tipo": "Minicurso",
+      "papel": "Ministrante",
+      "instituicoes_promotoras": [
+        "Instituto de Biodiversidade e Sustentabilidade (NUPEM/UFRJ)"
+      ],
+      "edicoes": [
+        {
+          "data": "2021-11",
+          "carga_horaria_horas": 4,
+          "local": "Macaé-RJ (Online)"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Noções básicas de scripts e consoles em R",
+        "Atribuição de variáveis e vetores",
+        "Construção de tabelas e gráficos científicos preliminares"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "RStudio"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science"
+      ]
+    },
+    {
+      "titulo": "Minicurso: Introdução à Linguagem R (IV Simpósio NUPEM)",
+      "tipo": "Minicurso",
+      "papel": "Ministrante",
+      "instituicoes_promotoras": [
+        "Instituto de Biodiversidade e Sustentabilidade (NUPEM/UFRJ)"
+      ],
+      "edicoes": [
+        {
+          "data": "2022-10",
+          "carga_horaria_horas": 4,
+          "local": "Macaé-RJ"
+        }
+      ],
+      "ementa_topicos_abordados": [
+        "Importação de planilhas de campo",
+        "Estatísticas descritivas rápidas com Tidyverse",
+        "Produção de gráficos prontos para publicação acadêmica"
+      ],
+      "ferramentas_ensino": [
+        "R",
+        "ggplot2"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science"
+      ]
+    }
+  ],
+  "projetos_e_produtos_tecnologicos": [
+    {
+      "nome": "Bio-N-Class",
+      "tipo": "Aplicativo Web / Material Didático",
+      "status": "Em andamento",
+      "descricao": "Portfólio de aulas interativas de Ciências da Natureza (Biologia, Química e Física) em formato web para navegador. Contém simulações computacionais baseadas em agentes (seleção natural com 5 traços fenotípicos), simulações estocásticas e probabilísticas (cruzamentos mendelianos e deriva genética), modelos de física (balística, cinemática, pressão de gases e propulsão de foguetes do modelo MOBFOG), reação ácido-base de vinagre e bicarbonato, quizzes com correção instantânea e arquitetura autocontida (imagens em Base64 para execução offline).",
+      "stack_tecnologica": [
+        "JavaScript (ES6+)",
+        "HTML5",
+        "CSS3",
+        "Tailwind CSS",
+        "p5.js",
+        "KaTeX",
+        "Python (scripts de build e automação)",
+        "Git/GitHub",
+        "GitHub Actions (CI/CD)",
+        "GitHub Pages"
+      ],
+      "repositorio_ou_link": "https://github.com/nchnogueira/Bio-N-Class",
+      "destaque_ou_premiacao": null,
+      "tags_carreira": [
+        "dev_web",
+        "educacao_basica",
+        "data_science"
+      ]
+    },
+    {
+      "nome": "MeteoRApp",
+      "tipo": "Aplicativo Web",
+      "status": "Concluído",
+      "descricao": "Aplicação web interativa criada para o Laboratório de Meteorologia da UENF (LAMET) com o objetivo de disponibilizar e visualizar dados hidrometeorológicos provenientes de estações cadastradas na rede Weather Underground. Permite filtragem temporal, visualização em mapas dinâmicos e exportação de tabelas e gráficos de variáveis do tempo.",
+      "stack_tecnologica": [
+        "R",
+        "Shiny",
+        "Leaflet",
+        "Tidyverse",
+        "RStudio",
+        "ShinyApps.io",
+        "Git/GitHub"
+      ],
+      "repositorio_ou_link": "http://pexcca-uenf.shinyapps.io/MeteoRApp/",
+      "destaque_ou_premiacao": "Produto oficial de divulgação do projeto de extensão Proamb.R/LAMET",
+      "tags_carreira": [
+        "dev_web",
+        "climatologia",
+        "data_science",
+        "gis"
+      ]
+    },
+    {
+      "nome": "Simulador 3D do Experimento de Stern-Gerlach",
+      "tipo": "Software / Aplicativo Web",
+      "status": "Concluído",
+      "descricao": "Simulador computacional 3D interativo construído para fins didáticos no contexto da disciplina de Dualidade da Luz e da Partícula do Mestrado em Ciências Naturais (UENF). Utiliza WebGL e Three.js para demonstrar a quantização espacial do momento angular magnético (spin) de átomos de prata atravessando um campo magnético não homogêneo, contando com interface HUD estilizada em glassmorphism e controles de rotação tridimensionais em tempo real.",
+      "stack_tecnologica": [
+        "JavaScript (ES6+)",
+        "Three.js",
+        "WebGL",
+        "HTML5",
+        "CSS3 (Glassmorphism)"
+      ],
+      "repositorio_ou_link": null,
+      "destaque_ou_premiacao": null,
+      "tags_carreira": [
+        "dev_web",
+        "docencia_superior",
+        "educacao_basica"
+      ]
+    },
+    {
+      "nome": "Livro: Um Guia Prático de Bioestatística com a Linguagem R",
+      "tipo": "Livro / Material Didático",
+      "status": "Concluído",
+      "descricao": "Obra didática de acesso aberto em língua portuguesa voltada a graduandos em Ciências Biológicas e áreas da saúde, integrando fundamentos de probabilidade, estatística descritiva e testes de hipóteses ao aprendizado prático de programação no software R. Desenvolvido no Instituto de Biodiversidade e Sustentabilidade da UFRJ (NUPEM).",
+      "stack_tecnologica": [
+        "R",
+        "Markdown",
+        "Typst",
+        "ggplot2"
+      ],
+      "repositorio_ou_link": null,
+      "destaque_ou_premiacao": "Menção Honrosa na 12ª Semana de Integração Acadêmica da UFRJ (SIAC 2023)",
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "nome": "Pipeline de Extração e Análise Climatológica Massiva do Estado do Rio de Janeiro",
+      "tipo": "Repositório / Script",
+      "status": "Em andamento",
+      "descricao": "Conjunto de pipelines analíticos desenvolvidos para processamento out-of-memory de matrizes de reanálise horária e diária (ERA5-Land) e precipitação por satélite (CHIRPS v3). O sistema automatiza a extração zonal para os 92 municípios fluminenses, cálculo de normais, detecção de anomalias térmicas e pluviométricas e aplicação dos testes de Mann-Kendall e Estimador de Sen.",
+      "stack_tecnologica": [
+        "R (terra, sf, exactextractr, modifiedmk, SPEI)",
+        "Python (FastAPI, DuckDB)",
+        "Google Earth Engine (GEE API)",
+        "Parquet",
+        "GeoTIFF"
+      ],
+      "repositorio_ou_link": "https://github.com/nchnogueira",
+      "destaque_ou_premiacao": null,
+      "tags_carreira": [
+        "climatologia",
+        "data_science",
+        "gis",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "nome": "Análise de Anomalias Térmicas em Campos dos Goytacazes-RJ",
+      "tipo": "Script / Repositório",
+      "status": "Concluído",
+      "descricao": "Rotina analítica para caracterização e identificação de anomalias de temperatura do ar utilizando dados diários históricos da estação convencional do INMET (83698) em relação à climatologia padrão (1991-2010), avaliando desvios e percentis de calor extremo.",
+      "stack_tecnologica": [
+        "R",
+        "Tidyverse",
+        "ggplot2"
+      ],
+      "repositorio_ou_link": null,
+      "destaque_ou_premiacao": null,
+      "tags_carreira": [
+        "climatologia",
+        "data_science"
+      ]
+    }
+  ],
+  "producao_intelectual_e_cientifica": [
+    {
+      "titulo": "MAPEAMENTO BIBLIOMÉTRICO DA RELAÇÃO ENTRE LIBRAS E EDUCAÇÃO: UMA REVISÃO INTEGRATIVA COM BIBLIOMETRIX",
+      "tipo": "Artigo Completo",
+      "evento_ou_veiculo": "Coletânea Interdisciplinar dos Espaços Surdos, ed. 1. Even3 Publicações, p. 73-86. ISBN: 9786527208",
+      "ano": "2024",
+      "autores": [
+        "MIRANDA, A. E. S.",
+        "NOGUEIRA, N. C.",
+        "SILVA, L. R."
+      ],
+      "orientadores": [],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Educação Bilíngue",
+        "Comunidade Surda",
+        "Revisão Bibliométrica",
+        "Bibliometrix",
+        "Linguagem R"
+      ],
+      "tags_carreira": [
+        "pesquisa_academica",
+        "data_science",
+        "educacao_basica"
+      ]
+    },
+    {
+      "titulo": "ANÁLISE DE ÍNDICES DE EXTREMOS CLIMÁTICOS (SPI E SPEI) NA REGIÃO HIDROGRÁFICA BAIXO PARAÍBA DO SUL E ITABAPOANA",
+      "tipo": "Artigo Completo",
+      "evento_ou_veiculo": "Livro Gestão Ambiental, ed. 1. Campina Grande: EPTEC, p. 113-122. ISBN: 9786500849400",
+      "ano": "2023",
+      "autores": [
+        "SANTOS, E. B.",
+        "SANTANA, G. R. A.",
+        "NOGUEIRA, N. C.",
+        "HOLENDER, B. V."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": "Classificado e avaliado entre os 15 melhores trabalhos do 20º Congresso Nacional de Meio Ambiente de Poços de Caldas",
+      "temas_chave": [
+        "Índice SPI",
+        "Índice SPEI",
+        "Extremos Climáticos",
+        "Recursos Hídricos",
+        "Baixo Paraíba do Sul"
+      ],
+      "tags_carreira": [
+        "climatologia",
+        "pesquisa_academica",
+        "data_science",
+        "gis"
+      ]
+    },
+    {
+      "titulo": "Análise Espacial e Temporal das Temperaturas Máximas Anuais no Estado do Rio de Janeiro",
+      "tipo": "Artigo Completo",
+      "evento_ou_veiculo": "3° ClimaTecBr (Macaé-RJ) / Revista Educação, Clima e Tecnologias, Editora NUPEM/UFRJ",
+      "ano": "2025",
+      "autores": [
+        "NOGUEIRA, N. C.",
+        "SANTANA, G. R. A.",
+        "HOLENDER, B. V.",
+        "SANTOS, E. B."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Temperaturas Máximas",
+        "Análise Espacial",
+        "Tendências Climáticas",
+        "Estado do Rio de Janeiro"
+      ],
+      "tags_carreira": [
+        "climatologia",
+        "pesquisa_academica",
+        "data_science",
+        "gis"
+      ]
+    },
+    {
+      "titulo": "CARACTERIZAÇÃO TEMPORAL DA TEMPERATURA DO AR EM CAMPOS DOS GOYTACAZES-RJ: PADRÕES E TENDÊNCIAS CLIMÁTICAS",
+      "tipo": "Artigo Completo",
+      "evento_ou_veiculo": "Anais do 22° Congresso Nacional de Meio Ambiente de Poços de Caldas",
+      "ano": "2025",
+      "autores": [
+        "SANTOS, E. B.",
+        "SANTANA, G. R. A.",
+        "NOGUEIRA, N. C.",
+        "HOLENDER, B. V."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Temperatura do Ar",
+        "Campos dos Goytacazes",
+        "Padrões Climáticos",
+        "Mann-Kendall"
+      ],
+      "tags_carreira": [
+        "climatologia",
+        "pesquisa_academica",
+        "data_science"
+      ]
+    },
+    {
+      "titulo": "Environmental Education, Racial Issues, and the 2030 Agenda: Necessary dialogues with Africa and Latin America",
+      "tipo": "Artigo Completo",
+      "evento_ou_veiculo": "Relatório Técnico para a Cátedra UNESCO em EaD (UnB). DOI: 10.5281/zenodo.10553090",
+      "ano": "2024",
+      "autores": [
+        "SANTOS, R. S. S.",
+        "COSTA, R. N.",
+        "NOGUEIRA, N. C."
+      ],
+      "orientadores": [],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Educação Ambiental",
+        "Questões Étnico-Raciais",
+        "Agenda 2030 / ODS",
+        "Educação Aberta e a Distância"
+      ],
+      "tags_carreira": [
+        "pesquisa_academica",
+        "educacao_basica"
+      ]
+    },
+    {
+      "titulo": "Análise Espacial e Temporal das Temperaturas Máximas Anuais no Estado do Rio de Janeiro (Apresentação)",
+      "tipo": "Apresentação Oral",
+      "evento_ou_veiculo": "3° ClimaTecBr (Macaé-RJ)",
+      "ano": "2025",
+      "autores": [
+        "NOGUEIRA, N. C.",
+        "SANTANA, G. R. A.",
+        "HOLENDER, B. V.",
+        "SANTOS, E. B."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Climatologia Fluminense",
+        "Temperaturas Máximas",
+        "Geoprocessamento"
+      ],
+      "tags_carreira": [
+        "climatologia",
+        "data_science",
+        "gis"
+      ]
+    },
+    {
+      "titulo": "Análise de Eventos Secos e Chuvosos Utilizando o Índice De Precipitação Padronizada (SPI) no Município de Nova Friburgo – RJ",
+      "tipo": "Pôster",
+      "evento_ou_veiculo": "XVI Congresso Fluminense de Iniciação Científica e Tecnológica e IX Congresso Fluminense de Pós-Graduação (CONFICT/CONPG - UENF)",
+      "ano": "2024",
+      "autores": [
+        "HOLENDER, B. V.",
+        "NOGUEIRA, N. C.",
+        "SANTOS, E. B."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Índice SPI",
+        "Precipitação",
+        "Nova Friburgo",
+        "Eventos Extremos"
+      ],
+      "tags_carreira": [
+        "climatologia",
+        "data_science",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "titulo": "Análise de Tendências de Temperaturas do Ar Mínimas e Máximas em Campos dos Goytacazes, Rio de Janeiro",
+      "tipo": "Pôster",
+      "evento_ou_veiculo": "CPAM 2024 - Conferência Pan-Americana de Meteorologia e Simpósio em Clima, Água, Energia e Alimentos (USP - São Paulo)",
+      "ano": "2024",
+      "autores": [
+        "NOGUEIRA, N. C.",
+        "SANTOS, E. B."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Índices ETCCDI",
+        "Tendências Climáticas",
+        "Mann-Kendall",
+        "Estimador de Sen",
+        "Campos dos Goytacazes"
+      ],
+      "tags_carreira": [
+        "climatologia",
+        "data_science",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "titulo": "Processamento e Análise de Dados Ambientais com R (Apresentação 2024)",
+      "tipo": "Apresentação Oral",
+      "evento_ou_veiculo": "XVI Mostra de Extensão UENF UFF IFF & VIII UFRRJ",
+      "ano": "2024",
+      "autores": [
+        "SANTOS, E. B.",
+        "NOGUEIRA, N. C.",
+        "SILVA, E. N.",
+        "OLIVEIRA, A. C. R. F.",
+        "SOUZA, I. B.",
+        "SANTANA, G. R. A."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": "Trabalho Premiado na Área Temática Meio Ambiente",
+      "temas_chave": [
+        "Extensão Universitária",
+        "Linguagem R",
+        "Dados Ambientais",
+        "Democratização de Software Livre"
+      ],
+      "tags_carreira": [
+        "data_science",
+        "climatologia",
+        "docencia_superior"
+      ]
+    },
+    {
+      "titulo": "Livro: Guia Prático de Bioestatística com R (Apresentação SIAC)",
+      "tipo": "Apresentação Oral",
+      "evento_ou_veiculo": "12ª Semana de Integração Acadêmica da UFRJ (SIAC 2023 - Macaé)",
+      "ano": "2023",
+      "autores": [
+        "NOGUEIRA, N. C.",
+        "BARBOZA, C. A. M.",
+        "PAIVA, P. C."
+      ],
+      "orientadores": [
+        "BARBOZA, C. A. M."
+      ],
+      "premiacoes_distincoes": "Menção Honrosa",
+      "temas_chave": [
+        "Educação Estatística",
+        "Ciência Aberta",
+        "Software R",
+        "Visualização de Dados"
+      ],
+      "tags_carreira": [
+        "docencia_superior",
+        "data_science",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "titulo": "Processamento e Análise de Dados Ambientais com R (Apresentação 2023)",
+      "tipo": "Apresentação Oral",
+      "evento_ou_veiculo": "XV Mostra de Extensão UENF-UFF-IFF-VII UFRRJ",
+      "ano": "2023",
+      "autores": [
+        "SANTOS, E. B.",
+        "NOGUEIRA, N. C.",
+        "ANDRADE, C. T.",
+        "SANTANA, G. R. A.",
+        "SILVA, E. N.",
+        "OLIVEIRA, A. C. R. F.",
+        "FERREIRA, D. S.",
+        "OLIVEIRA, K. A."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Extensão Universitária",
+        "Análise de Dados",
+        "Programação Científica"
+      ],
+      "tags_carreira": [
+        "data_science",
+        "climatologia",
+        "docencia_superior"
+      ]
+    },
+    {
+      "titulo": "Formação de professores e produção de podcasts em tempos de isolamento social: Relatos de experiência no contexto do PIBID Biologia Macaé",
+      "tipo": "Apresentação Oral",
+      "evento_ou_veiculo": "11ª Semana de Integração Acadêmica da UFRJ (SIAC 2022 - Rio de Janeiro / Online)",
+      "ano": "2022",
+      "autores": [
+        "NOGUEIRA, N. C.",
+        "ALVES, M. E. C. C.",
+        "PAIVA, B. P.",
+        "ABREU, T. B."
+      ],
+      "orientadores": [
+        "ABREU, T. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "PIBID",
+        "Podcasts Educativos",
+        "Formação Docente",
+        "Ensino Remoto"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "docencia_superior",
+        "pesquisa_academica"
+      ]
+    },
+    {
+      "titulo": "PROCESSAMENTO E ANÁLISE DE DADOS AMBIENTAIS COM R (Apresentação 2022)",
+      "tipo": "Apresentação Oral",
+      "evento_ou_veiculo": "XIV Mostra de Extensão UENF - UFF - IFF e VI UFRRJ",
+      "ano": "2022",
+      "autores": [
+        "NOGUEIRA, N. C.",
+        "SANTOS, E. B."
+      ],
+      "orientadores": [
+        "SANTOS, E. B."
+      ],
+      "premiacoes_distincoes": null,
+      "temas_chave": [
+        "Educação em Ciência de Dados",
+        "Meteorologia Computacional",
+        "Linguagem R"
+      ],
+      "tags_carreira": [
+        "data_science",
+        "climatologia",
+        "docencia_superior"
+      ]
+    }
+  ],
+  "formacao_academica": [
+    {
+      "grau": "Mestrado",
+      "curso": "Pós-Graduação em Ciências Naturais (PGCN)",
+      "instituicao": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+      "periodo": {
+        "inicio": "2026-03",
+        "conclusao": "2028-03"
+      },
+      "detalhes": "Linha de pesquisa em Climatologia e Monitoramento de Extremos Climáticos no Estado do Rio de Janeiro. Orientação: Profa. Dra. Eliane Barbosa Santos. Bolsista de Mestrado CAPES."
+    },
+    {
+      "grau": "Graduação",
+      "curso": "Licenciatura em Ciências Biológicas",
+      "instituicao": "Universidade Federal do Rio de Janeiro (UFRJ - Campus Macaé / NUPEM)",
+      "periodo": {
+        "inicio": "2019-07",
+        "conclusao": "2024-12"
+      },
+      "detalhes": "Formação inicial com foco em Biologia Geral, Ecologia e Ensino de Ciências. Monitor acadêmico de Bioestatística (4 anos) e Ecologia de Ecossistemas Terrestres, bolsista PIBID/CAPES e bolsista extensionista."
+    },
+    {
+      "grau": "Ensino Médio",
+      "curso": "Ensino Médio Regular",
+      "instituicao": "Centro Preparatório Maximus (Colégio CPM - Nova Friburgo, RJ)",
+      "periodo": {
+        "inicio": "2014-02",
+        "conclusao": "2017-12"
+      },
+      "detalhes": "Formação de Ensino Médio de 2º Grau."
+    }
+  ],
+  "certificacoes_e_cursos_livres": [
+    {
+      "nome_curso": "Projetos Integradores STEAM no desenvolvimento de saberes digitais",
+      "instituicao_emissora": "Tríade Educacional / Fundação ArcelorMittal / AVAMEC",
+      "data_conclusao": "2025-07",
+      "carga_horaria_horas": 40,
+      "topicos_chave": [
+        "Metodologia STEAM",
+        "Projetos integradores na educação básica",
+        "Competências digitais docentes",
+        "Aprendizagem criativa e maker"
+      ],
+      "tags_carreira": [
+        "educacao_basica",
+        "dev_web"
+      ]
+    },
+    {
+      "nome_curso": "Estatística (Estatística Descritiva, Probabilidade e Amostragem)",
+      "instituicao_emissora": "Escola Nacional de Administração Pública (ENAP)",
+      "data_conclusao": "2025-05",
+      "carga_horaria_horas": 20,
+      "topicos_chave": [
+        "Estatística descritiva e variabilidade",
+        "Distribuições de probabilidades",
+        "Planos de amostragem probabilística",
+        "Interpretação de parâmetros populacionais"
+      ],
+      "tags_carreira": [
+        "data_science"
+      ]
+    },
+    {
+      "nome_curso": "Produção de mapas no QGIS",
+      "instituicao_emissora": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+      "data_conclusao": "2023",
+      "carga_horaria_horas": 4,
+      "topicos_chave": [
+        "Layouts de impressão cartográfica",
+        "Simbologia e rotulagem vetorial",
+        "Sistemas de Projeção e Coordenadas (SIRGAS 2000)",
+        "Geração de mapas temáticos"
+      ],
+      "tags_carreira": [
+        "gis"
+      ]
+    },
+    {
+      "nome_curso": "Interpolação Espacial no QGIS",
+      "instituicao_emissora": "Engenharia Meteorológica / Fundação Cecierj / UENF",
+      "data_conclusao": "2022",
+      "carga_horaria_horas": 4,
+      "topicos_chave": [
+        "Métodos determinísticos de interpolação (IDW)",
+        "Krigagem ordinária básica",
+        "Geração de superfícies contínuas a partir de estações pontuais"
+      ],
+      "tags_carreira": [
+        "gis",
+        "climatologia"
+      ]
+    },
+    {
+      "nome_curso": "Técnicas Multivariadas com R",
+      "instituicao_emissora": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+      "data_conclusao": "2022",
+      "carga_horaria_horas": 10,
+      "topicos_chave": [
+        "Matrizes de variância e covariância",
+        "Análise de Componentes Principais (PCA)",
+        "Agrupamento hierárquico e não hierárquico (K-means)",
+        "Visualização de biplots e clusters"
+      ],
+      "tags_carreira": [
+        "data_science"
+      ]
+    },
+    {
+      "nome_curso": "Análise de Séries Temporais com R",
+      "instituicao_emissora": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+      "data_conclusao": "2021",
+      "carga_horaria_horas": 12,
+      "topicos_chave": [
+        "Estruturas ts e tsibble no R",
+        "Decomposição de séries temporais (tendência, sazonalidade, ruído)",
+        "Autocorrelação (ACF/PACF)",
+        "Modelos preditivos autorregressivos"
+      ],
+      "tags_carreira": [
+        "data_science",
+        "climatologia"
+      ]
+    },
+    {
+      "nome_curso": "Análise Espacial com R",
+      "instituicao_emissora": "Universidade Estadual do Norte Fluminense Darcy Ribeiro (UENF)",
+      "data_conclusao": "2021",
+      "carga_horaria_horas": 12,
+      "topicos_chave": [
+        "Introdução aos pacotes sf e raster/terra",
+        "Manipulação de geodados em formato tabular",
+        "Mapas temáticos coropléticos com ggplot2 e tmap",
+        "Extrações espaciais e operações geométricas"
+      ],
+      "tags_carreira": [
+        "gis",
+        "data_science"
+      ]
+    }
+  ],
+  "participacao_em_eventos_ouvinte": [
+    {
+      "nome_evento": "3° ClimaTecBr - Conferência de Educação, Clima e Tecnologias",
+      "formato": "Congresso",
+      "ano": "2025",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Tecnologias educacionais aplicadas ao clima",
+        "Extremos térmicos e mudanças climáticas",
+        "Sustentabilidade regional"
+      ]
+    },
+    {
+      "nome_evento": "CPAM 2024 - Conferência Pan-Americana de Meteorologia e Simpósio em Clima, Água, Energia e Alimentos",
+      "formato": "Congresso",
+      "ano": "2024",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Meteorologia de mesoescala e sinótica",
+        "Monitoramento de secas e recursos hídricos",
+        "Eventos extremos no continente americano"
+      ]
+    },
+    {
+      "nome_evento": "XVI Mostra de Extensão UENF UFF IFF & VIII UFRRJ",
+      "formato": "Simpósio",
+      "ano": "2024",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Interação e transformação social via extensão universitária",
+        "Divulgação de ciência de dados ambientais"
+      ]
+    },
+    {
+      "nome_evento": "12ª Semana de Integração Acadêmica da UFRJ (SIAC)",
+      "formato": "Simpósio",
+      "ano": "2023",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Ensino de graduação, monitoria e inovação didática",
+        "Produção de materiais didáticos para bioestatística"
+      ]
+    },
+    {
+      "nome_evento": "XV Mostra de Extensão UENF-UFF-IFF-VII UFRRJ",
+      "formato": "Simpósio",
+      "ano": "2023",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Sustentabilidade e produção de conhecimento tecnológico aberto"
+      ]
+    },
+    {
+      "nome_evento": "Festival ConexõesMundos 2023",
+      "formato": "Semana Acadêmica",
+      "ano": "2023",
+      "carga_horaria_horas": 80,
+      "temas_relevantes": [
+        "Atuação na Coordenação Geral do evento",
+        "Educação e sustentabilidade",
+        "Integração comunitária e espaços dialógicos"
+      ]
+    },
+    {
+      "nome_evento": "Festival ConexõesMundos 2022",
+      "formato": "Semana Acadêmica",
+      "ano": "2022",
+      "carga_horaria_horas": 40,
+      "temas_relevantes": [
+        "Atuação como Monitor Geral de logística e suporte operacional"
+      ]
+    },
+    {
+      "nome_evento": "11ª Semana de Integração Acadêmica da UFRJ (SIAC)",
+      "formato": "Simpósio",
+      "ano": "2022",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Formação de professores em tempos de isolamento social",
+        "Comunicação em áudio e mídias no ensino de Biologia"
+      ]
+    },
+    {
+      "nome_evento": "IV Simpósio de Pesquisa do NUPEM",
+      "formato": "Simpósio",
+      "ano": "2022",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Pesquisa interdisciplinar em biodiversidade e ecologia no Norte Fluminense"
+      ]
+    },
+    {
+      "nome_evento": "XIV Mostra de Extensão UENF - UFF - IFF e VI UFRRJ",
+      "formato": "Simpósio",
+      "ano": "2022",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Darcy 100 anos: Sociedade darciniana disruptiva e extensão inclusiva"
+      ]
+    },
+    {
+      "nome_evento": "III Simpósio de Pesquisa do NUPEM",
+      "formato": "Simpósio",
+      "ano": "2021",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Avanços em ciências ambientais, biologia integrativa e análise de dados"
+      ]
+    },
+    {
+      "nome_evento": "II Semana Acadêmica de Biologia",
+      "formato": "Semana Acadêmica",
+      "ano": "2020",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Formação docente e temas contemporâneos em ciências biológicas"
+      ]
+    },
+    {
+      "nome_evento": "Dia Mundial dos Oceanos 2023 (NUPEM/UFRJ)",
+      "formato": "Semana Acadêmica",
+      "ano": "2023",
+      "carga_horaria_horas": null,
+      "temas_relevantes": [
+        "Atuação como Expositor nas oficinas Corais do Saber e Pegada Positiva",
+        "Sensibilização ambiental e preservação marinha"
+      ]
+    }
+  ]
+}

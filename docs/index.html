@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Nícolas Chenquel Nogueira | Dados, Clima e Educação</title>
+<meta name="description" content="Portfólio de Nícolas Chenquel Nogueira: ciência de dados, climatologia, desenvolvimento web e educação em ciências.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="top">
+  <nav>
+    <a class="brand" href="#inicio">N. C. Nogueira</a>
+    <a href="#projetos">Projetos</a>
+    <a href="#pesquisa">Pesquisa</a>
+    <a href="#docencia">Docência</a>
+    <a href="#trajetoria">Trajetória</a>
+    <a href="#skills">Skills</a>
+    <a href="#contato">Contato</a>
+  </nav>
+</header>
+
+<main>
+<section id="inicio" class="hero">
+  <p class="eyebrow">Mestrando em Ciências Naturais (UENF) · Licenciado em Ciências Biológicas (UFRJ)</p>
+  <h1>Nícolas Chenquel Nogueira</h1>
+  <p class="lead">Transformo dados ambientais complexos em análises reprodutíveis, ferramentas interativas e material didático. Atuo na interseção entre estatística, climatologia, desenvolvimento web e ensino de ciências.</p>
+  <div class="pills">
+    <span>Campos dos Goytacazes, RJ</span><span>R · Python · JavaScript</span><span>Bolsista CAPES</span>
+  </div>
+  <div class="cta">
+    <a class="btn" href="#projetos">Ver projetos</a>
+    <a class="btn ghost" href="https://lattes.cnpq.br/2784975258768462">Currículo Lattes</a>
+    <a class="btn ghost" href="https://github.com/nchnogueira">GitHub</a>
+  </div>
+</section>
+
+<section class="areas" aria-label="Áreas de atuação">
+  <article>
+    <h3>Ciência de Dados</h3>
+    <p>Pipelines end-to-end em R e Python, DuckDB para dados out-of-memory, séries temporais, PCA, clustering e dashboards em Shiny.</p>
+  </article>
+  <article>
+    <h3>Climatologia e GIS</h3>
+    <p>ERA5-Land, CHIRPS v3, INMET e ANA. SPI/SPEI, índices ETCCDI, Mann-Kendall, Sen, teleconexões ENSO e geoprocessamento com terra, sf e QGIS.</p>
+  </article>
+  <article>
+    <h3>Desenvolvimento Web</h3>
+    <p>JavaScript, p5.js, Three.js/WebGL, Tailwind, FastAPI e CI/CD com GitHub Actions para aplicações científicas e educacionais.</p>
+  </article>
+  <article>
+    <h3>Educação</h3>
+    <p>Docência em Ciências, Química, Estatística e Informática. PBL, STEAM, livro didático premiado e minicursos de R.</p>
+  </article>
+</section>
+
+<section id="projetos">
+  <h2>Projetos</h2>
+
+  <h3 class="sub">Em destaque</h3>
+  <div class="grid">
+    <article class="card">
+      <img src="assets/mestrado-pipeline.png" alt="Mapa metodológico do pipeline de climatologia do Rio de Janeiro" loading="lazy">
+      <div class="body">
+        <span class="tag">Mestrado · Em andamento</span>
+        <h4>Pipeline climatológico massivo do Rio de Janeiro</h4>
+        <p>Extração zonal de ERA5-Land e CHIRPS v3 para os 92 municípios fluminenses, com normais, anomalias, SPI/SPEI e testes de tendência (Mann-Kendall e Sen). Processamento colunar com DuckDB e Parquet.</p>
+        <p class="stack">R (terra, sf, exactextractr) · Python · DuckDB · Google Earth Engine</p>
+        <a href="https://github.com/nchnogueira">Repositório</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/bionclass.png" alt="Simulação de seleção natural no Bio-N-Class" loading="lazy">
+      <div class="body">
+        <span class="tag">EdTech · Em andamento</span>
+        <h4>Bio-N-Class</h4>
+        <p>Aulas interativas de Biologia, Química e Física no navegador: seleção natural baseada em agentes, genética mendeliana estocástica, balística, foguetes e quizzes com correção instantânea. Funciona offline.</p>
+        <p class="stack">JavaScript · p5.js · Tailwind · KaTeX · GitHub Actions · Pages</p>
+        <a href="https://github.com/nchnogueira/Bio-N-Class">Repositório</a>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/stern-gerlach.png" alt="Simulador 3D do experimento de Stern-Gerlach" loading="lazy">
+      <div class="body">
+        <span class="tag">Software · Concluído</span>
+        <h4>Simulador 3D do experimento de Stern-Gerlach</h4>
+        <p>Simulação interativa em WebGL sobre a quantização do spin de átomos de prata em campo magnético não homogêneo, com interface em glassmorphism. Desenvolvido na disciplina do mestrado.</p>
+        <p class="stack">Three.js · WebGL · JavaScript · CSS3</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <div class="shot pending">Captura pendente (MeteoRApp)</div>
+      <div class="body">
+        <span class="tag">Aplicativo web · Concluído</span>
+        <h4>MeteoRApp</h4>
+        <p>Aplicativo web interativo do LAMET/UENF para visualizar dados de estações meteorológicas, com mapa dinâmico em Leaflet, filtros temporais e exportação de relatórios.</p>
+        <p class="stack">R · Shiny · Leaflet · Tidyverse</p>
+        <a href="http://pexcca-uenf.shinyapps.io/MeteoRApp/">Abrir aplicativo</a>
+      </div>
+    </article>
+  </div>
+
+  <h3 class="sub">Análises de dados</h3>
+  <div class="grid">
+    <article class="card">
+      <img src="assets/banner-cpam.png" alt="Banner apresentado na CPAM 2024" loading="lazy">
+      <div class="body">
+        <span class="tag">CPAM 2024 · USP</span>
+        <h4>Tendências de TMin e TMax em Campos dos Goytacazes</h4>
+        <p>Oito índices ETCCDI (1961-2023, estação INMET 83698) com Mann-Kendall e estimador de Sen. Resultados significativos (p&lt;0,05): TNn +0,19 °C/década, TNx +0,25 °C/década, TXn +0,28 °C/década e TN90p +1,62 dias/década.</p>
+        <p class="stack">R · ETCCDI · Mann-Kendall · Sen</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/chuva-rs.gif" alt="Animação da precipitação acumulada por mesorregião do RS" loading="lazy">
+      <div class="body">
+        <span class="tag">INMET · Abr-Mai 2024</span>
+        <h4>Precipitação extrema no Rio Grande do Sul</h4>
+        <p>Evolução temporal da precipitação acumulada por mesorregião a partir de 43 estações automáticas do INMET, com animação e geoprocessamento.</p>
+        <p class="stack">R · gganimate · sf</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/anomalias.png" alt="Tabela de anomalias térmicas mensais" loading="lazy">
+      <div class="body">
+        <span class="tag">INMET 83698</span>
+        <h4>Anomalias térmicas em Campos dos Goytacazes</h4>
+        <p>Desvios mensais em relação à normal 1981-2010. Em 2024, todos os meses com dado válido apresentaram anomalia positiva.</p>
+        <p class="stack">R · tidyverse · gt</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/r-downloads.png" alt="Diagrama de Sankey de downloads do R por versão" loading="lazy">
+      <div class="body">
+        <span class="tag">CRAN · 2012-2025</span>
+        <h4>Downloads da linguagem R por versão</h4>
+        <p>ETL paralelo de 4.569 arquivos diários de log (1,7 GB) com future.apply. Tempo reduzido de cerca de 3 h para cerca de 50 min. Visualização em Sankey com ggsankey.</p>
+        <p class="stack">R · future.apply · ggsankey</p>
+      </div>
+    </article>
+
+    <article class="card">
+      <img src="assets/alcool.png" alt="Correlação entre consumo de álcool e expectativa de vida" loading="lazy">
+      <div class="body">
+        <span class="tag">Our World in Data</span>
+        <h4>Álcool, IDH e expectativa de vida</h4>
+        <p>Correlação de Spearman moderada (ρ = 0,49; p&lt;0,01) em 45 países, com IDH como fator relevante. Correlação não implica causalidade.</p>
+        <p class="stack">R · ggplot2 · ggflags</p>
+      </div>
+    </article>
+  </div>
+</section>
+
+<section id="pesquisa">
+  <h2>Pesquisa e produção científica</h2>
+  <p class="muted">Dissertação em andamento (UENF/LAMET, orientação da Profa. Dra. Eliane B. Santos): monitoramento de extremos climáticos, secas e teleconexões ENSO no estado do Rio de Janeiro.</p>
+  <ul class="list">
+    <li><span class="year">2025</span> <strong>Análise espacial e temporal das temperaturas máximas anuais no estado do Rio de Janeiro.</strong> 3º ClimaTecBr, Revista Educação, Clima e Tecnologias (NUPEM/UFRJ).</li>
+    <li><span class="year">2025</span> <strong>Caracterização temporal da temperatura do ar em Campos dos Goytacazes-RJ.</strong> 22º Congresso Nacional de Meio Ambiente de Poços de Caldas.</li>
+    <li><span class="year">2024</span> <strong>Mapeamento bibliométrico da relação entre Libras e Educação (Bibliometrix).</strong> Coletânea Interdisciplinar dos Espaços Surdos, Even3.</li>
+    <li><span class="year">2024</span> <strong>Processamento e Análise de Dados Ambientais com R.</strong> XVI Mostra de Extensão UENF-UFF-IFF-UFRRJ. <em>Trabalho premiado em Meio Ambiente.</em></li>
+    <li><span class="year">2024</span> <strong>Análise de tendências de temperaturas mínimas e máximas em Campos dos Goytacazes.</strong> CPAM 2024, USP (pôster).</li>
+    <li><span class="year">2024</span> <strong>Eventos secos e chuvosos com SPI em Nova Friburgo-RJ.</strong> CONFICT/CONPG, UENF (pôster).</li>
+    <li><span class="year">2024</span> <strong>Environmental Education, Racial Issues, and the 2030 Agenda.</strong> Relatório técnico, Cátedra UNESCO em EaD. DOI 10.5281/zenodo.10553090.</li>
+    <li><span class="year">2023</span> <strong>Índices SPI e SPEI na Região Hidrográfica Baixo Paraíba do Sul e Itabapoana.</strong> Livro Gestão Ambiental (EPTEC). <em>Entre os 15 melhores trabalhos do 20º Congresso Nacional de Meio Ambiente.</em></li>
+  </ul>
+</section>
+
+<section id="docencia">
+  <h2>Docência e extensão</h2>
+  <div class="two">
+    <div>
+      <h3>Educação básica e técnica</h3>
+      <ul class="plain">
+        <li>Professor de Ciências (6º ao 9º ano), Centro Educacional Rico Talento, desde 2025.</li>
+        <li>Professor de Química, SEEDUC-RJ (2025).</li>
+        <li>Instrutor de Estatística Aplicada e Química Aplicada, Pronatec (2025).</li>
+        <li>Instrutor de Informática e Método Científico, Colégio Estadual Quinze de Novembro (2025).</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Ensino superior e extensão</h3>
+      <ul class="plain">
+        <li>Minicursos de R, ggplot2, Tidyverse e Estatística Básica (UENF e NUPEM/UFRJ, 2021-2024).</li>
+        <li>Monitor de Bioestatística na UFRJ por 4 anos e de Ecologia de Ecossistemas Terrestres.</li>
+        <li>Coordenador-geral do Festival ConexõesMundos 2023 (80 h).</li>
+        <li>PIBID Biologia: produção de podcasts educativos no ensino remoto.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="trajetoria">
+  <h2>Trajetória</h2>
+  <ol class="timeline">
+    <li><span class="year">2026 - 2028</span><div><strong>Mestrado em Ciências Naturais, UENF</strong><p>Bolsista CAPES. Climatologia e monitoramento de extremos no RJ.</p></div></li>
+    <li><span class="year">2024 - hoje</span><div><strong>Colaborador do Proamb.R, LAMET/UENF</strong><p>Manutenção do MeteoRApp, oficinas de R e divulgação científica.</p></div></li>
+    <li><span class="year">2022 - 2024</span><div><strong>Bolsista de extensão, LAMET/UENF</strong><p>Criação do MeteoRApp e pipelines com dados do INMET. Premiado na XVI Mostra de Extensão.</p></div></li>
+    <li><span class="year">2019 - 2024</span><div><strong>Licenciatura em Ciências Biológicas, UFRJ Macaé</strong><p>Monitoria, PIBID e extensão.</p></div></li>
+  </ol>
+</section>
+
+<section id="skills">
+  <h2>Competências</h2>
+  <div class="chips">
+    <div><h4>Dados e estatística</h4><span>R</span><span>Tidyverse</span><span>Python</span><span>Pandas</span><span>Polars</span><span>SQL</span><span>DuckDB</span><span>Shiny</span><span>Plotly</span><span>PCA</span><span>Séries temporais</span><span>Mann-Kendall</span></div>
+    <div><h4>Clima e GIS</h4><span>ERA5-Land</span><span>CHIRPS v3</span><span>Google Earth Engine</span><span>QGIS</span><span>terra</span><span>sf</span><span>exactextractr</span><span>SPI/SPEI</span><span>ETCCDI</span><span>MapBiomas</span></div>
+    <div><h4>Desenvolvimento</h4><span>JavaScript</span><span>TypeScript</span><span>HTML/CSS</span><span>Tailwind</span><span>p5.js</span><span>Three.js</span><span>FastAPI</span><span>Docker</span><span>Git</span><span>GitHub Actions</span><span>Typst</span></div>
+    <div><h4>Educação</h4><span>PBL</span><span>STEAM</span><span>Ensino por investigação</span><span>Design instrucional</span><span>Material didático</span></div>
+  </div>
+  <p class="muted">Idiomas: Português (nativo) e Inglês (avançado).</p>
+</section>
+
+<section id="contato">
+  <h2>Contato</h2>
+  <div class="cta">
+    <a class="btn" href="mailto:nchnogueira@gmail.com">nchnogueira@gmail.com</a>
+    <a class="btn ghost" href="https://www.linkedin.com/in/nchnogueira">LinkedIn</a>
+    <a class="btn ghost" href="https://github.com/nchnogueira">GitHub</a>
+    <a class="btn ghost" href="https://orcid.org/0000-0002-5077-4130">ORCID</a>
+    <a class="btn ghost" href="https://lattes.cnpq.br/2784975258768462">Lattes</a>
+  </div>
+</section>
+</main>
+
+<footer>© 2026 Nícolas Chenquel Nogueira · Código sob licença MIT</footer>
+</body>
+</html>
